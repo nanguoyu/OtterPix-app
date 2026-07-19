@@ -14,7 +14,7 @@ macOS 14+ · Apple 芯片 · 免费下载，Pro 为应用内购买 · 支持 18 
 
 </div>
 
-![OtterPix 在 macOS 上的主界面：左侧边栏包含主页、全部功能、快捷操作和设置，中间是各个图片工具的任务卡片，下方是可拖入图片的拖放区。](assets/zh-Hans/home.webp)
+![OtterPix 在 macOS 上的处理流水线：输入节点、处理步骤节点和输出节点，链条下方是已载入图片的缩略图条。](assets/zh-Hans/pipeline.webp)
 
 ## OtterPix 是什么
 

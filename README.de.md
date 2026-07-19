@@ -14,7 +14,7 @@ macOS 14+ · Apple Silicon · Gratis-Download, Pro per In-App-Kauf · 18 Sprache
 
 </div>
 
-![Der OtterPix-Startbildschirm auf macOS: eine Seitenleiste mit Start, Alle Funktionen, Schnellaktionen und Einstellungen, ein Raster aus Aufgabenkarten für die Bildwerkzeuge und eine Ablagezone für Bilder.](assets/de/home.webp)
+![Die OtterPix-Verarbeitungspipeline auf macOS: ein Eingabe-Knoten, Verarbeitungsschritte und ein Ausgabe-Knoten, darunter der Streifen mit den geladenen Bildern.](assets/de/pipeline.webp)
 
 ## Was ist OtterPix
 

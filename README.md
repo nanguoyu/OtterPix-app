@@ -14,7 +14,7 @@ macOS 14+ · Apple silicon · Free download, Pro via in-app purchase · 18 langu
 
 </div>
 
-![The OtterPix home screen on macOS: a sidebar with Home, All Features, Quick Actions, and Settings, a grid of task cards for the image tools, and a drop zone that accepts images.](assets/en/home.webp)
+![The OtterPix Processing Pipeline on macOS: an Input node, processing step nodes, and an Output node, with a strip of loaded images below the chain.](assets/en/pipeline.webp)
 
 ## What is OtterPix
 

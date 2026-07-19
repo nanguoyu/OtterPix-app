@@ -14,7 +14,7 @@ macOS 14+ · Apple 晶片 · 免費下載，Pro 為 App 內購買 · 18 種語�
 
 </div>
 
-![OtterPix 首頁：左側側邊欄有首頁、全部功能、快捷操作與設定，中間是各項影像工具的任務卡片，並附一個可拖入圖片的拖放區。](assets/zh-Hant/home.webp)
+![OtterPix「全部功能」頁面：上方是工具與 AI 卡片庫，底部停靠的「處理流程」列處於收合狀態，右側顯示「3 個步驟 · 6 張圖片」與「顯示流程」展開按鈕。](assets/zh-Hant/pipeline.webp)
 
 ## OtterPix 是什麼
 
