@@ -1,0 +1,56 @@
+name: "Feature request / 功能请求"
+description: "A concrete, scoped request. Early open-ended ideas → Discussions → Ideas. / 具体、明确的功能请求；初步想法请发 Discussions 的 Ideas。"
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        You can write in **English, 中文, or Deutsch**. Requests are read and labeled, and they genuinely shape what gets built — but there is no public roadmap, and features aren't announced before they ship.
+
+        可用英文、中文或德文填写。所有请求都会被阅读和标记，并实际影响开发优先级——但本项目没有公开路线图，也不会预告未发布的功能。
+  - type: textarea
+    id: goal
+    attributes:
+      label: "What are you trying to do? / 你想完成什么？"
+      description: "Describe the task or problem, not the solution. / 先描述任务或问题本身。"
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: "How do you do it today? / 你现在如何解决？"
+    validations:
+      required: false
+  - type: textarea
+    id: proposal
+    attributes:
+      label: "Proposed solution (optional) / 期望的做法（选填）"
+    validations:
+      required: false
+  - type: dropdown
+    id: area
+    attributes:
+      label: "Which tool does this extend? / 涉及哪个功能？"
+      options:
+        - Format Conversion
+        - Compression
+        - Resize
+        - Crop
+        - Rotation
+        - Watermark
+        - Batch Rename
+        - Metadata
+        - PDF to Image
+        - QR Code
+        - Pipeline
+        - AI OCR
+        - AI Generation
+        - AI Upscale
+        - AI Cutout
+        - AI Eraser
+        - AI Anonymize
+        - AI Restore
+        - New tool / 新工具
+        - App-wide / 整体体验
+    validations:
+      required: true

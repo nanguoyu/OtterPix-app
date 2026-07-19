@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Questions & help / 提问与求助"
+    url: "https://github.com/nanguoyu/OtterPix-app/discussions/categories/q-a"
+    about: "How do I…? Ask anything about using OtterPix — English, 中文, Deutsch all welcome. / 使用问题请到 Q&A 讨论区。"
+  - name: "Billing, refunds & subscriptions / 购买、退款与订阅"
+    url: "https://reportaproblem.apple.com"
+    about: "All purchases are processed by Apple. Refunds: reportaproblem.apple.com · Manage or cancel subscriptions: apps.apple.com/account/subscriptions / 购买事务由 Apple 处理：退款走 reportaproblem.apple.com，订阅在 App Store 账户中管理。"
+  - name: "Privacy policy & sensitive reports / 隐私与敏感问题"
+    url: "https://otterpix.app/en/privacy"
+    about: "Privacy policy. For security reports or anything you'd rather not post publicly: see SECURITY.md or email hello@otterpix.app. / 安全问题参见 SECURITY.md 或发邮件 hello@otterpix.app。"

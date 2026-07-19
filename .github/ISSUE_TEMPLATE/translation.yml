@@ -1,0 +1,58 @@
+name: "Translation feedback / 翻译反馈"
+description: "Report a wrong or awkward UI string in any of OtterPix's 18 languages. / 报告任一语言中不准确或别扭的界面文案。"
+labels: ["translation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Native-speaker corrections are some of the most valuable contributions this project gets — thank you. / 母语者的指正对本项目非常宝贵，谢谢。
+  - type: dropdown
+    id: language
+    attributes:
+      label: "Language / 语言"
+      options:
+        - English
+        - 简体中文
+        - 繁體中文
+        - Deutsch
+        - 日本語
+        - 한국어
+        - ไทย
+        - Tiếng Việt
+        - Français
+        - Italiano
+        - Español
+        - Português (Brasil)
+        - Svenska
+        - Suomi
+        - Norsk
+        - Türkçe
+        - Русский
+        - Українська
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: "Where does the text appear? / 文案出现在哪里？"
+      placeholder: "e.g. AI Cutout → Model picker / 设置 → AI"
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: "Current text / 现在的文案"
+    validations:
+      required: true
+  - type: textarea
+    id: suggested
+    attributes:
+      label: "Suggested text / 建议的文案"
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: "Why is it better? (optional) / 理由（选填）"
+    validations:
+      required: false

@@ -1,0 +1,95 @@
+name: "Bug report / 问题报告"
+description: "Something in OtterPix isn't working right. / OtterPix 的某个功能表现不正常。"
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. You can write in **English, 中文, or Deutsch**.
+
+        This is a public tracker — please don't attach personal photos; a screenshot with a neutral test image is ideal. Photo EXIF data can contain GPS locations (OtterPix's **Metadata** tool can strip it first), and crash logs can contain your macOS username and file paths — redact before pasting. Anything you'd rather not post publicly: hello@otterpix.app.
+
+        这是公开的问题列表——请勿上传个人照片，截图建议使用中性测试图；照片 EXIF 可能包含 GPS 位置（可先用 OtterPix 的「元数据」工具清除），崩溃日志可能包含用户名与文件路径，粘贴前请自行遮盖。不便公开的内容请发 hello@otterpix.app。
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: "What happened? / 发生了什么？"
+      description: "What did you expect, and what happened instead? / 预期的结果与实际的结果。"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to reproduce / 复现步骤"
+      placeholder: "1. Open AI Cutout  2. Drop a PNG  3. Click Cut Out …"
+    validations:
+      required: true
+  - type: dropdown
+    id: feature
+    attributes:
+      label: "Which tool or feature? / 哪个功能？"
+      options:
+        - Format Conversion
+        - Compression
+        - Resize
+        - Crop
+        - Rotation
+        - Watermark
+        - Batch Rename
+        - Metadata
+        - PDF to Image
+        - QR Code
+        - Pipeline
+        - AI OCR
+        - AI Generation
+        - AI Upscale
+        - AI Cutout
+        - AI Eraser
+        - AI Anonymize
+        - AI Restore
+        - Purchases / Pro
+        - Settings / Model downloads
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: "App version / App 版本"
+      description: "In OtterPix: OtterPix → About OtterPix / 在 OtterPix 中：OtterPix → 关于 OtterPix"
+      placeholder: "1.2.1"
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: "macOS version / macOS 版本"
+      placeholder: "macOS 15.5"
+    validations:
+      required: true
+  - type: dropdown
+    id: chip
+    attributes:
+      label: "Mac chip / 芯片"
+      options:
+        - M1 family
+        - M2 family
+        - M3 family
+        - M4 family
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: app-language
+    attributes:
+      label: "App language (for text/translation issues) / App 语言（界面文案问题时填写）"
+      placeholder: "e.g. Deutsch / 简体中文"
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots (optional) / 截图（选填）"
+      description: "Drag images here. Neutral test images only, please. / 可拖拽图片；请使用中性测试图。"
+    validations:
+      required: false
