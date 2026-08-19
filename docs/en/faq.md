@@ -40,11 +40,11 @@ No tool overwrites originals. Saving always writes copies to a destination you c
 
 ### Does OtterPix upload my images?
 
-No. Every operation — including all AI features — runs locally on your Mac. The app contains no analytics SDK, no telemetry, and no image upload. It is sandboxed, and its network entitlements cover exactly two things: downloading AI model files when you first use an AI feature, and App Store purchase verification. Full details in the [privacy policy](https://otterpix.app/en/privacy).
+No. Every operation — including AI inference — runs locally on your Mac. The app contains no analytics SDK and never uploads your images, generation prompts, OCR content, or usage telemetry. Its limited network traffic is for StoreKit; a startup Cloudflare edge-country lookup used only to choose a model-download mirror; a small URL-only model-manifest refresh when the model store is first used; and model downloads that you initiate. None of these requests contains your media or processing content. Full details are in the [privacy policy](https://otterpix.app/en/privacy).
 
 ### Can I use OtterPix offline?
 
-Yes. Basic tools work offline from the first launch. Each AI feature needs one online moment — its initial model download — and runs offline ever after.
+Yes. Basic processing and AI inference with already-downloaded models work offline. A connection is still needed for initial or updated model downloads and StoreKit purchase or restore operations; the metadata and routing requests above do not upload processing content.
 
 ### How do I remove GPS data from photos before sharing?
 
@@ -58,7 +58,7 @@ Each AI feature is powered by a model that ships separately from the app to keep
 
 ### Where do I manage the models?
 
-**Settings → AI**. Every model can be downloaded, re-downloaded, or deleted there — deleting frees disk space, and the feature simply asks to download again next time.
+**Settings → AI**. Every model can be downloaded or deleted there, and active downloads can be paused, resumed, or cancelled. Partial data is retained across relaunch and shown as resumable rather than installed. Feature pages show the same shared progress for the model they need.
 
 ### Do models cost anything?
 

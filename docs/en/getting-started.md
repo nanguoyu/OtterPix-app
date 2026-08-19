@@ -21,12 +21,13 @@ Everything you need to go from download to your first finished edit.
 
 ![The OtterPix home screen on macOS with the sidebar, task cards, and the image drop zone.](../../assets/en/home.webp)
 
-**Sidebar.** Four fixed entries: **Home**, **All Features**, **Quick Actions**, and **Settings**.
+**Sidebar.** The fixed destinations are **Home**, **All Features**, and **Automation**. Your customizable **Quick Actions** sit below them, and **Settings** stays pinned at the bottom.
 
 - **Home** greets you with "What would you like to do?" — task cards for the most common tools plus a drop zone.
 - **All Features** is the full gallery: every tool as a card, a **Search** field to filter them, and the **Processing Pipeline** docked at the bottom. Pro AI cards wear an amber **Free today** badge while your daily free use of that tool is still available.
+- **Automation** is the Pro folder-watching workspace: authorize an input folder, choose a saved Pipeline preset, and new files can be processed automatically.
 - **Quick Actions** are your own shortcuts. In **Settings** you can pick which features appear — as the app puts it: "Choose which features appear as shortcuts in the sidebar and on Home."
-- **Settings** holds three tabs: **General**, **AI** (model downloads and storage), and **About**.
+- **Settings** holds four tabs: **General**, **Export**, **AI** (model downloads and storage), and **About**.
 
 **Drop zone.** Almost every tool starts the same way: "**Select images or drag here**" — "or press ⌘V to paste". Home's drop zone lists the headline formats — PNG · JPEG · HEIC · TIFF · WebP · GIF +51 — and routes what you drop to the right tool.
 
@@ -41,7 +42,11 @@ That's the whole shape of the app: drop, adjust, save. Every tool follows it.
 
 ## The AI features
 
-The AI tools (Upscale, Cutout, Eraser, Anonymize, Restore, OCR, Generation) each download a model the first time you run them, then work fully offline. Models are chosen and managed under **Settings → AI**, where you can also delete any model to free disk space. Sizes range from a few megabytes for the smallest upscale model up to several gigabytes for image generation.
+The AI tools (Upscale, Cutout, Eraser, Anonymize, Restore, OCR, Generation) download their selected model components on first use, then work offline. Task-specific model and quality choices are visible in each feature. **Settings → AI** shows the same resumable downloads and handles deletion and storage. Sizes range from a few megabytes for the smallest upscale model to several gigabytes for image generation.
+
+## Automation
+
+With Pro, **Automation** can watch an authorized folder and run a saved Pipeline preset whenever new files arrive. Supported tools and saved presets can also be invoked through Shortcuts/App Intents or AppleScript. The same Pro and regional availability rules apply whichever entry point you use.
 
 ## Free and Pro
 
@@ -56,7 +61,7 @@ Pro is a monthly or yearly subscription, or a one-time lifetime purchase. See cu
 
 ## Privacy
 
-All processing runs on your Mac. Images are never uploaded — the app's only network use is the model downloads you explicitly trigger and App Store purchase verification. Details: [privacy policy](https://otterpix.app/en/privacy).
+All image processing and AI inference run on your Mac. Your images, generation prompts, OCR content, and usage telemetry are never uploaded. OtterPix does connect for StoreKit, a startup Cloudflare edge-country lookup used only to select a model-download mirror, a small URL-only model-manifest refresh when the model store is first used, and model downloads you initiate. Details: [privacy policy](https://otterpix.app/en/privacy).
 
 ## Where to get help
 

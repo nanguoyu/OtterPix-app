@@ -19,7 +19,7 @@
 | **Pipeline-Schritt** | Nein |
 | **Empfohlen** | 16 GB RAM oder mehr |
 
-Alles läuft lokal auf deinem Mac. Bilder werden nie hochgeladen – die App nutzt das Netz nur für die Modell-Downloads, die du selbst anstößt, und die Kaufbestätigung über den App Store.
+Bildverarbeitung und KI-Inferenz bleiben auf deinem Mac. Bilder, Generierungs-Prompts, OCR-Inhalte und Nutzungs-Telemetrie werden nie hochgeladen. OtterPix kann sich für StoreKit, eine beim Start ausschließlich für das Modell-Download-Routing genutzte Cloudflare-Abfrage des Edge-Landes, eine kleine Aktualisierung des ausschließlich Download-URLs enthaltenden Modell-Manifests bei der ersten Nutzung der Modellverwaltung sowie von dir gestartete Modell-Downloads verbinden.
 
 **Regionaler Hinweis:** In der über den Mac App Store für Festlandchina vertriebenen Version von OtterPix sind KI-Bilderzeugung und KI-Texterkennung nicht verfügbar. Alle anderen Funktionen – einschließlich der fünf Pro-KI-Werkzeuge – sind in jeder Region verfügbar, in der OtterPix erscheint. Details in den [Nutzungsbedingungen](https://otterpix.app/de/terms).
 
@@ -28,9 +28,10 @@ Alles läuft lokal auf deinem Mac. Bilder werden nie hochgeladen – die App nut
 1. Öffne OtterPix und klicke auf **KI-Bilderzeugung**.
 2. Tipp deinen Prompt – das Feld bittet dich: „Beschreibe das gewünschte Bild“. Konkret schlägt vage: Motiv, Stil, Licht, Umgebung. Eine **Beispiele**-Zeile liefert Startpunkte.
 3. Füg optional **Referenzbilder** hinzu – „Bild ablegen oder klicken, um eine Referenz hinzuzufügen (max. 3, optional)“. Mit Referenzen beschreibt der Prompt, wie sie verwandelt oder kombiniert werden sollen.
-4. Wähl eine Ausgabegröße aus den Voreinstellungen, oder nimm **Benutzerdefinierte Größe** und trag **Breite** und **Höhe** ein – das Kettenglied-Symbol sperrt das Seitenverhältnis beim Tippen.
-5. Klicke auf **Generieren**. Die lokale Generierung dauert je nach Mac Minuten; eine Fortschrittsanzeige begleitet den Lauf, und am Ende wird die Dauer gemeldet.
-6. Drücke **Speichern** (⌘S), um das Ergebnis zu behalten.
+4. Wähl im Arbeitsbereich **Modellpräzision** und **Textenkoder-Präzision**. Daneben siehst du die tatsächliche Größe der gewählten Konfiguration.
+5. Wähl eine Ausgabegröße aus den Voreinstellungen, oder nimm **Benutzerdefinierte Größe** und trag **Breite** und **Höhe** ein – das Kettenglied-Symbol sperrt das Seitenverhältnis beim Tippen.
+6. Klicke beim ersten Mal auf **Laden und generieren** (bei fertiger Konfiguration auf **Generieren**). Derselbe Download samt Steuerung erscheint unter **Einstellungen → KI**; an beiden Stellen kannst du pausieren, fortsetzen oder abbrechen. Nach dem Setup startet die Generierung automatisch.
+7. Drücke **Speichern** (⌘S), um das Ergebnis zu behalten.
 
 ## Optionen
 
@@ -42,6 +43,10 @@ Bis zu drei. Eine Referenz lenkt Stil oder Motiv; mehrere lassen sich kombiniere
 
 Voreingestellte Größen decken die üblichen Fälle ab; **Benutzerdefinierte Größe** nimmt exakte Pixelmaße mit sperrbarem Seitenverhältnis.
 
+### Modell und Präzision
+
+Flux 2 Klein 4B ist das Generierungsmodell. Transformer- und Textenkoder-Präzision gehören zur aktuellen Aufgabe und stehen deshalb direkt im Arbeitsbereich; die gewählte Speichergröße wird daneben angezeigt. Das Zahnrad enthält nur die erweiterte VAE-Auswahl und **Modelle verwalten…**. Löschen und speicherübergreifende Pflege bleiben unter **Einstellungen → KI**.
+
 ### Erweiterte Parameter
 
 Für die Feinsteuerung zeigt das Werkzeug Generierungsparameter mit verständlichen Erklärungen direkt in der Oberfläche – die Zahl der Verfeinerungsschritte (mehr Schritte: höhere Qualität, langsamer), wie streng der Prompt befolgt wird, und einen Seed (gleicher Seed, gleicher Prompt und gleiche Einstellungen reproduzieren dasselbe Bild; der Würfel-Knopf setzt ihn zufällig).
@@ -50,7 +55,7 @@ Für die Feinsteuerung zeigt das Werkzeug Generierungsparameter mit verständlic
 
 - **Sei konkret.** „Eine Aquarell-Illustration eines Leuchtturms in der Abenddämmerung, warmes Licht, weiche Papiertextur“ schlägt „schönes Leuchtturmbild“.
 - **Minuten, nicht Sekunden.** Die Generierung ist die schwerste Arbeitslast der App und skaliert mit dem Chip deines Mac und der Ausgabegröße. Genau dafür sind 16 GB RAM oder mehr empfohlen.
-- **Der Download ist der große.** Das Generierungsmodell kommt in mehreren Teilen mit insgesamt mehreren Gigabyte – alle verwaltet (und löschbar) unter **Einstellungen → KI**.
+- **Der Download ist der große.** Die gewählten Komponenten umfassen mehrere Gigabyte. Teilstände bleiben nach Pause, Abbruch, Netzverlust und Neustart erhalten; unvollständige Ordner erscheinen als fortsetzbar, nie als installiert. Löschen erfolgt unter **Einstellungen → KI**.
 - **Seeds machen Ergebnisse reproduzierbar.** Lass den Seed stehen, um an einem Prompt zu iterieren; setz ihn zufällig, um zu erkunden.
 
 ## Fehlerbehebung
@@ -58,8 +63,7 @@ Für die Feinsteuerung zeigt das Werkzeug Generierungsparameter mit verständlic
 | Du siehst | Ursache | Lösung |
 |---|---|---|
 | Die Funktion fehlt in deiner App komplett | Download über den Mac App Store für Festlandchina | Siehe [FAQ](../faq.md#regionale-verfügbarkeit--support) – eine Frage der Storefront-Verfügbarkeit, kein Fehler |
-| Ein Hinweis auf ein fehlendes Modell vor dem ersten Lauf | Die Teile des Generierungsmodells sind nicht vollständig geladen | **Einstellungen → KI** öffnen und die Downloads der Generierungs-Komponenten abschließen |
-| Die erste Generierung ist viel langsamer als spätere | Das Modell wird einmal pro Sitzung in den Speicher geladen | Folgende Läufe sind schneller |
+| Das Setup wurde unterbrochen | Die gewählten Komponenten sind unvollständig | Auf der Generierungsseite oder unter **Einstellungen → KI** fortsetzen; vorhandene Daten werden weiterverwendet |
 | Dein Mac wird während der Generierung träge | Generierung ist naturgemäß rechen- und speicherintensiv | Den Lauf zu Ende bringen oder **Abbrechen**; speicherhungrige Apps schließen; 16 GB+ RAM sind empfohlen |
 | Weiterhin Probleme | — | [Issue eröffnen](https://github.com/nanguoyu/OtterPix-app/issues/new/choose) |
 

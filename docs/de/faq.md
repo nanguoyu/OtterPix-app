@@ -40,11 +40,11 @@ Kein Werkzeug überschreibt Originale. Gespeichert wird immer als Kopie an einen
 
 ### Lädt OtterPix meine Bilder hoch?
 
-Nein. Jede Operation – einschließlich aller KI-Funktionen – läuft lokal auf deinem Mac. Die App enthält kein Analytics-SDK, keine Telemetrie und keinen Bild-Upload. Sie läuft in der macOS-Sandbox, und ihre Netzwerkberechtigungen decken genau zwei Dinge ab: den Download der KI-Modelldateien bei der ersten Nutzung einer KI-Funktion und die App-Store-Kaufbestätigung. Alle Details in der [Datenschutzerklärung](https://otterpix.app/de/privacy).
+Nein. Jede Operation – einschließlich KI-Inferenz – läuft lokal auf deinem Mac. Die App enthält kein Analytics-SDK und lädt weder Bilder noch Generierungs-Prompts, OCR-Inhalte oder Nutzungs-Telemetrie hoch. Der begrenzte Netzwerkverkehr umfasst StoreKit; eine Cloudflare-Abfrage des Edge-Landes beim Start, die ausschließlich den Modell-Downloadspiegel auswählt; eine kleine Aktualisierung des ausschließlich Download-URLs enthaltenden Modell-Manifests bei der ersten Nutzung der Modellverwaltung; und von dir gestartete Modell-Downloads. Keine dieser Anfragen enthält Medien oder Verarbeitungsinhalte. Alle Details stehen in der [Datenschutzerklärung](https://otterpix.app/de/privacy).
 
 ### Funktioniert OtterPix offline?
 
-Ja. Die Basiswerkzeuge arbeiten ab dem ersten Start offline. Jede KI-Funktion braucht einen einzigen Online-Moment – ihren ersten Modell-Download – und läuft danach dauerhaft offline.
+Ja. Basisverarbeitung und KI-Inferenz mit bereits geladenen Modellen funktionieren offline. Eine Verbindung bleibt für erste oder aktualisierte Modell-Downloads sowie Kauf und Wiederherstellung über StoreKit nötig; die genannten Metadaten- und Routing-Anfragen laden keine Verarbeitungsinhalte hoch.
 
 ### Wie entferne ich GPS-Daten aus Fotos, bevor ich sie teile?
 
@@ -58,7 +58,7 @@ Hinter jeder KI-Funktion steht ein Modell, das getrennt von der App ausgeliefert
 
 ### Wo verwalte ich die Modelle?
 
-Unter **Einstellungen → KI**. Jedes Modell lässt sich dort herunterladen, erneut laden oder löschen – Löschen gibt Speicherplatz frei, und die Funktion fragt beim nächsten Mal einfach wieder nach dem Download.
+Unter **Einstellungen → KI**. Modelle lassen sich dort laden oder löschen; aktive Downloads können pausiert, fortgesetzt oder abgebrochen werden. Teildaten bleiben über einen Neustart erhalten und erscheinen als fortsetzbar statt installiert. Die Funktionsseite zeigt denselben gemeinsamen Fortschritt.
 
 ### Kosten die Modelle etwas?
 
