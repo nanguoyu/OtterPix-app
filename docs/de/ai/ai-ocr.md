@@ -18,7 +18,7 @@
 | **Ausgabe** | Markdown oder Reintext – kopieren oder exportieren |
 | **Pipeline-Schritt** | Nein |
 
-Alles läuft lokal auf deinem Mac. Bilder werden nie hochgeladen – die App nutzt das Netz nur für die Modell-Downloads, die du selbst anstößt, und die Kaufbestätigung über den App Store.
+Bildverarbeitung und KI-Inferenz bleiben auf deinem Mac. Bilder, Generierungs-Prompts, OCR-Inhalte und Nutzungs-Telemetrie werden nie hochgeladen. OtterPix kann sich für StoreKit, eine beim Start ausschließlich für das Modell-Download-Routing genutzte Cloudflare-Abfrage des Edge-Landes, eine kleine Aktualisierung des ausschließlich Download-URLs enthaltenden Modell-Manifests bei der ersten Nutzung der Modellverwaltung sowie von dir gestartete Modell-Downloads verbinden.
 
 **Regionaler Hinweis:** In der über den Mac App Store für Festlandchina vertriebenen Version von OtterPix sind KI-Bilderzeugung und KI-Texterkennung nicht verfügbar. Alle anderen Funktionen – einschließlich der fünf Pro-KI-Werkzeuge – sind in jeder Region verfügbar, in der OtterPix erscheint. Details in den [Nutzungsbedingungen](https://otterpix.app/de/terms).
 
@@ -37,9 +37,12 @@ Alles läuft lokal auf deinem Mac. Bilder werden nie hochgeladen – die App nut
 
 | Modus | Am besten für |
 |---|---|
-| **Markdown · Layout** | Der Standard. Behält das Layout des Dokuments und bettet Abbildungen ein – die richtige Wahl für Papers, Berichte und gemischte Text-Bild-Seiten |
-| **Dokument** | Sehr dichte Seiten – Prüfungsbögen, eng gepackte Formulare |
-| **Reintext** | Wenn du nur die Wörter willst, ohne Struktur |
+| **Bild + Text** | Der Standard. Bettet Diagramme und Fotos als Bilder ein – ideal für Papers, Berichte und gemischte Seiten; sehr dichte reine Textseiten können fehlen |
+| **Standard** | Text, Tabellen und Formeln auf dichten Seiten – die Ausweichoption für Prüfungsbögen und Formulare; komplexe Abbildungen können übersprungen werden |
+
+Erkennungsmodus und Ausgabeansicht sind getrennt. **Gerendert**,
+**Quelltext** und **Klartext** ändern nur Darstellung bzw. Export des fertigen
+Ergebnisses; der Modelllauf wird beim Umschalten nicht wiederholt.
 
 ### PDF-Seitenauswahl
 
@@ -64,7 +67,6 @@ Die Einstellungen des Werkzeugs enthalten die **Modell**-Zeile (in den Worten de
 | „Einige Seiten sind fast leer — evtl. besser im anderen Modus.“ | Der gewählte Modus kam mit dem Layout dieser Seiten nicht zurecht | Über den Knopf im Banner den anderen Modus auf demselben Dokument laufen lassen |
 | Die Ausgabe bricht mitten im Dokument ab | Die Token-Obergrenze pro Seite wurde erreicht | **Max. Tokens** in den Einstellungen des Werkzeugs erhöhen, dann erneut **Erkennen** |
 | Wirre Ausgabe bei einem Foto | Die Eingabe ist kein Dokument, sondern ein Szenenfoto oder Meme | Dokumentartige Eingaben verwenden – dafür ist das Werkzeug gebaut |
-| Der erste Lauf ist langsam | Das Modell wird einmal pro Sitzung geladen („Modell wird geladen…“) | Folgende Läufe sind schneller |
 | Weiterhin Probleme | — | [Issue eröffnen](https://github.com/nanguoyu/OtterPix-app/issues/new/choose) |
 
 ## Siehe auch

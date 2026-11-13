@@ -18,7 +18,9 @@ macOS 14+ · Apple silicon · Free download, Pro via in-app purchase · 18 langu
 
 ## What is OtterPix
 
-OtterPix is an image toolkit for the Mac where every operation — from format conversion to AI-powered editing — runs entirely on your machine. Ten one-click basic tools, a visual Pipeline for batch workflows, and a set of on-device AI features cover the everyday jobs: convert, compress, resize, watermark, rename, inspect metadata, remove backgrounds, erase objects, restore faces, recognize text, and generate images. The AI features are accelerated by Apple silicon; each one downloads its model on first use and works offline from then on. All processing runs on your Mac. Images are never uploaded — the app's only network use is the model downloads you explicitly trigger and App Store purchase verification.
+OtterPix is an image toolkit for the Mac where every operation — from format conversion to AI-powered editing — runs entirely on your machine. Ten one-click basic tools, a visual Pipeline for batch workflows, and a set of on-device AI features cover the everyday jobs: convert, compress, resize, watermark, rename, inspect metadata, remove backgrounds, erase objects, restore faces, recognize text, and generate images. The AI features are accelerated by Apple silicon; their models download on demand, and inference works offline once the required files are present. Pro also adds folder automation, while supported tools and saved presets can be invoked from Shortcuts/App Intents and AppleScript.
+
+User images, generation prompts, OCR content, and usage telemetry are never uploaded. OtterPix does make limited service requests for StoreKit, a startup Cloudflare edge-country lookup used only to select a model-download mirror, a small URL-only model-manifest refresh when the model store is first used, and model downloads that the user initiates.
 
 ## Features
 
@@ -63,7 +65,7 @@ OtterPix is a commercial, closed-source app distributed through the Mac App Stor
 
 Working in the open beats a private support inbox: everyone can see what's known, add to it, and watch fixes ship.
 
-Closed source doesn't mean take-our-word-for-it: the app is sandboxed, ships no analytics SDK, and its only network access is App Store purchase verification and the model downloads you explicitly trigger — see the [privacy policy](https://otterpix.app/en/privacy).
+Closed source doesn't mean take-our-word-for-it: the app is sandboxed, ships no analytics SDK, and never sends your images, prompts, OCR content, or usage telemetry. Its limited network traffic is documented in the [privacy policy](https://otterpix.app/en/privacy).
 
 ## Get help
 
@@ -79,7 +81,7 @@ Closed source doesn't mean take-our-word-for-it: the app is sandboxed, ships no 
 
 **Getting started**
 
-- [Getting started](docs/en/getting-started.md) — requirements, install, a tour of the window, your first edit
+- [Getting started](docs/en/getting-started.md) — requirements, install, window tour, automation, and your first edit
 
 **Tools**
 

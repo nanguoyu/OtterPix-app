@@ -18,7 +18,7 @@
 | **Ausgabe** | Das Foto mit den gewählten Erkennungen verwischt oder verpixelt |
 | **Pipeline-Schritt** | Nein – wer scharf bleibt, entscheidest du interaktiv |
 
-Alles läuft lokal auf deinem Mac. Bilder werden nie hochgeladen – die App nutzt das Netz nur für die Modell-Downloads, die du selbst anstößt, und die Kaufbestätigung über den App Store.
+Bildverarbeitung und KI-Inferenz bleiben auf deinem Mac. Bilder, Generierungs-Prompts, OCR-Inhalte und Nutzungs-Telemetrie werden nie hochgeladen. OtterPix kann sich für StoreKit, eine beim Start ausschließlich für das Modell-Download-Routing genutzte Cloudflare-Abfrage des Edge-Landes, eine kleine Aktualisierung des ausschließlich Download-URLs enthaltenden Modell-Manifests bei der ersten Nutzung der Modellverwaltung sowie von dir gestartete Modell-Downloads verbinden.
 
 ## So anonymisierst du ein Foto
 
@@ -59,7 +59,6 @@ Klassen-Chips setzen die Regel; Klicks auf nummerierte Felder machen die Ausnahm
 | Ein Hinweis, dass das Modell fehlt | Das Erkennungsmodell (~138 MB) liegt nicht auf der Platte | Im Fehler auf **Einstellungen öffnen** klicken und es laden (auch unter **Einstellungen → KI**) |
 | „Gratis-Nutzung dieses Werkzeugs heute aufgebraucht“ | „Jedes KI-Werkzeug hat täglich eine Gratis-Nutzung – diese wird um Mitternacht zurückgesetzt.“ | Auf den Reset warten oder upgraden. Das heutige Foto bleibt frei nachjustierbar |
 | Eine Person oder ein Kennzeichen wurde nicht erkannt | Zu klein, am Rand angeschnitten oder stark verdeckt | Nichts ausnehmen und noch einmal prüfen; Reste mit dem [KI-Radierer](ai-eraser.md) beseitigen |
-| Der erste Lauf ist langsamer als spätere | Das Modell wird einmal pro Sitzung geladen | Folgende Läufe sind schneller |
 | Weiterhin Probleme | — | [Issue eröffnen](https://github.com/nanguoyu/OtterPix-app/issues/new/choose) |
 
 ## Siehe auch

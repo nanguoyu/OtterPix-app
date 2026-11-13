@@ -18,7 +18,7 @@
 | **Output** | The image at 4× width and height |
 | **Pipeline step** | Yes (Pro) — see [Pipeline](../pipeline.md) |
 
-All processing runs on your Mac. Images are never uploaded — the app's only network use is the model downloads you explicitly trigger and App Store purchase verification.
+Image processing and AI inference stay on your Mac. Your images, generation prompts, OCR content, and usage telemetry are never uploaded. OtterPix may connect for StoreKit, a startup Cloudflare edge-country lookup used only for model-download routing, a small URL-only model-manifest refresh when the model store is first used, and model downloads you initiate.
 
 ## How to upscale
 
@@ -57,7 +57,6 @@ Start with the general mode for everyday shots; switch to the highest-quality mo
 |---|---|---|
 | "Model not downloaded yet." | The selected mode's model isn't on disk | Click **Open Settings** in the error and download it (also reachable via **Settings → AI**) |
 | "Today's free use for this tool is up" | "Each AI tool gets one free use a day — this one resets at midnight." | Wait for the reset, or upgrade to Pro. The photo you already ran today stays free to refine |
-| First run is noticeably slower | The model loads into memory once per session | Subsequent runs are faster |
 | Result looks over-smoothed | Mode mismatch (e.g. photo mode on line art) | Try another **Model** mode — same photo, same free use |
 | Still stuck | — | [Open an issue](https://github.com/nanguoyu/OtterPix-app/issues/new/choose) |
 

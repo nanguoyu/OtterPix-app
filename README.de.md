@@ -18,7 +18,9 @@ macOS 14+ · Apple Silicon · Gratis-Download, Pro per In-App-Kauf · 18 Sprache
 
 ## Was ist OtterPix
 
-OtterPix ist ein Bild-Werkzeugkasten für den Mac, bei dem jede Operation – von der Formatkonvertierung bis zur KI-Bearbeitung – vollständig auf deinem Rechner läuft. Zehn Ein-Klick-Basiswerkzeuge, eine visuelle Pipeline für Stapel-Workflows und ein Satz lokaler KI-Funktionen decken die täglichen Aufgaben ab: konvertieren, komprimieren, skalieren, Wasserzeichen setzen, umbenennen, Metadaten prüfen, Hintergründe entfernen, Objekte wegretuschieren, Gesichter wiederherstellen, Text erkennen und Bilder generieren. Die KI-Funktionen sind für Apple Silicon beschleunigt; jede lädt ihr Modell bei der ersten Nutzung herunter und arbeitet danach offline. Alles läuft lokal auf deinem Mac. Bilder werden nie hochgeladen – die App nutzt das Netz nur für die Modell-Downloads, die du selbst anstößt, und die Kaufbestätigung über den App Store.
+OtterPix ist ein Bild-Werkzeugkasten für den Mac, bei dem jede Operation – von der Formatkonvertierung bis zur KI-Bearbeitung – vollständig auf deinem Rechner läuft. Zehn Ein-Klick-Basiswerkzeuge, eine visuelle Pipeline für Stapel-Workflows und ein Satz lokaler KI-Funktionen decken die täglichen Aufgaben ab: konvertieren, komprimieren, skalieren, Wasserzeichen setzen, umbenennen, Metadaten prüfen, Hintergründe entfernen, Objekte wegretuschieren, Gesichter wiederherstellen, Text erkennen und Bilder generieren. Die KI-Funktionen sind für Apple Silicon beschleunigt; ihre Modelle werden bei Bedarf geladen, und die Inferenz arbeitet offline, sobald die benötigten Dateien vorhanden sind. Pro ergänzt Ordnerautomatisierung; unterstützte Werkzeuge und gespeicherte Voreinstellungen lassen sich auch über Kurzbefehle/App Intents und AppleScript aufrufen.
+
+Bilder, Generierungs-Prompts, OCR-Inhalte und Nutzungs-Telemetrie werden nie hochgeladen. OtterPix verbindet sich für StoreKit, eine Cloudflare-Abfrage des Edge-Landes beim Start, die ausschließlich den Modell-Downloadspiegel auswählt, eine kleine Aktualisierung des ausschließlich Download-URLs enthaltenden Modell-Manifests bei der ersten Nutzung der Modellverwaltung sowie von dir gestartete Modell-Downloads.
 
 ## Funktionen
 
@@ -63,7 +65,7 @@ OtterPix ist eine kommerzielle Closed-Source-App, die über den Mac App Store ve
 
 Offen zu arbeiten schlägt jedes private Support-Postfach: Alle sehen, was bekannt ist, können ergänzen und zuschauen, wie Fixes ausgeliefert werden.
 
-Closed Source heißt nicht „glaub uns einfach“: Die App läuft in der macOS-Sandbox, enthält kein Analytics-SDK, und ihr einziger Netzwerkzugriff sind die App-Store-Kaufbestätigung und die Modell-Downloads, die du selbst anstößt – siehe [Datenschutzerklärung](https://otterpix.app/de/privacy).
+Closed Source heißt nicht „glaub uns einfach“: Die App läuft in der macOS-Sandbox, enthält kein Analytics-SDK und sendet weder Bilder noch Prompts, OCR-Inhalte oder Nutzungs-Telemetrie. Der begrenzte Netzwerkverkehr ist in der [Datenschutzerklärung](https://otterpix.app/de/privacy) vollständig aufgeführt.
 
 ## Hilfe bekommen
 
@@ -79,7 +81,7 @@ Closed Source heißt nicht „glaub uns einfach“: Die App läuft in der macOS-
 
 **Erste Schritte**
 
-- [Erste Schritte](docs/de/getting-started.md) – Voraussetzungen, Installation, ein Rundgang durchs Fenster, deine erste Bearbeitung
+- [Erste Schritte](docs/de/getting-started.md) – Voraussetzungen, Installation, Fensterrundgang, Automatisierung und deine erste Bearbeitung
 
 **Werkzeuge**
 

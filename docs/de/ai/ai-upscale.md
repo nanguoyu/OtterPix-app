@@ -18,7 +18,7 @@
 | **Ausgabe** | Das Bild in 4× Breite und Höhe |
 | **Pipeline-Schritt** | Ja (Pro) – siehe [Pipeline](../pipeline.md) |
 
-Alles läuft lokal auf deinem Mac. Bilder werden nie hochgeladen – die App nutzt das Netz nur für die Modell-Downloads, die du selbst anstößt, und die Kaufbestätigung über den App Store.
+Bildverarbeitung und KI-Inferenz bleiben auf deinem Mac. Bilder, Generierungs-Prompts, OCR-Inhalte und Nutzungs-Telemetrie werden nie hochgeladen. OtterPix kann sich für StoreKit, eine beim Start ausschließlich für das Modell-Download-Routing genutzte Cloudflare-Abfrage des Edge-Landes, eine kleine Aktualisierung des ausschließlich Download-URLs enthaltenden Modell-Manifests bei der ersten Nutzung der Modellverwaltung sowie von dir gestartete Modell-Downloads verbinden.
 
 ## So skalierst du hoch
 
@@ -57,7 +57,6 @@ Starte mit dem Alltags-Modus für gewöhnliche Aufnahmen; wechsle für Drucke au
 |---|---|---|
 | „Modell noch nicht heruntergeladen.“ | Das Modell des gewählten Modus liegt nicht auf der Platte | Im Fehler auf **Einstellungen öffnen** klicken und es laden (auch über **Einstellungen → KI** erreichbar) |
 | „Gratis-Nutzung dieses Werkzeugs heute aufgebraucht“ | „Jedes KI-Werkzeug hat täglich eine Gratis-Nutzung – diese wird um Mitternacht zurückgesetzt.“ | Auf den Reset warten oder auf Pro upgraden. Das heute bereits berechnete Foto bleibt frei verfeinerbar |
-| Der erste Lauf ist deutlich langsamer | Das Modell wird einmal pro Sitzung in den Speicher geladen | Folgende Läufe sind schneller |
 | Das Ergebnis wirkt überglättet | Modus passt nicht zum Inhalt (z. B. Foto-Modus auf Lineart) | Einen anderen **Modell**-Modus probieren – gleiches Foto, gleiche Gratis-Nutzung |
 | Weiterhin Probleme | — | [Issue eröffnen](https://github.com/nanguoyu/OtterPix-app/issues/new/choose) |
 

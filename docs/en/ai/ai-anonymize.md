@@ -18,7 +18,7 @@
 | **Output** | The photo with the selected detections blurred or mosaicked |
 | **Pipeline step** | No — choosing who stays sharp is interactive |
 
-All processing runs on your Mac. Images are never uploaded — the app's only network use is the model downloads you explicitly trigger and App Store purchase verification.
+Image processing and AI inference stay on your Mac. Your images, generation prompts, OCR content, and usage telemetry are never uploaded. OtterPix may connect for StoreKit, a startup Cloudflare edge-country lookup used only for model-download routing, a small URL-only model-manifest refresh when the model store is first used, and model downloads you initiate.
 
 ## How to anonymize a photo
 
@@ -59,7 +59,6 @@ Class chips set the rule; clicking numbered boxes makes the exceptions. "Everyon
 | A model-not-downloaded error | The detection model (~138 MB) isn't on disk | Click **Open Settings** in the error and download it (also under **Settings → AI**) |
 | "Today's free use for this tool is up" | "Each AI tool gets one free use a day — this one resets at midnight." | Wait for the reset or upgrade. Today's photo stays free to keep adjusting |
 | A person or plate wasn't detected | Too small, cut off at the edge, or heavily obscured | Exclude nothing and re-check; clean up leftovers with [AI Eraser](ai-eraser.md) |
-| First run is slower than later ones | Model weights load once per session | Subsequent runs are faster |
 | Still stuck | — | [Open an issue](https://github.com/nanguoyu/OtterPix-app/issues/new/choose) |
 
 ## See also

@@ -18,7 +18,7 @@
 | **Output** | Markdown or plain text — copy or export |
 | **Pipeline step** | No |
 
-All processing runs on your Mac. Images are never uploaded — the app's only network use is the model downloads you explicitly trigger and App Store purchase verification.
+Image processing and AI inference stay on your Mac. Your images, generation prompts, OCR content, and usage telemetry are never uploaded. OtterPix may connect for StoreKit, a startup Cloudflare edge-country lookup used only for model-download routing, a small URL-only model-manifest refresh when the model store is first used, and model downloads you initiate.
 
 **Regional note:** In the version of OtterPix distributed through the mainland-China Mac App Store, AI Generation and AI OCR are not available. Every other feature — including all five Pro AI tools — is available in every region OtterPix ships to. See the [Terms of Service](https://otterpix.app/en/terms) for details.
 
@@ -37,9 +37,12 @@ All processing runs on your Mac. Images are never uploaded — the app's only ne
 
 | Mode | Best for |
 |---|---|
-| **Markdown · layout** | The default. Keeps the document's layout and embeds figures — the right choice for papers, reports, and mixed text-and-image pages |
-| **Document** | Very dense pages — exam sheets, tightly packed forms |
-| **Plain text** | When you only want the words, no structure |
+| **Rich Layout** | The default. Embeds diagrams and photos as images — best for papers, reports, and mixed text-and-image pages; may miss an unusually dense text-only page |
+| **Standard** | Text, tables, and formulas on dense pages — the fallback for exam sheets and forms; complex figures may be skipped |
+
+Recognition mode and output view are separate. **Rendered**, **Source**, and
+**Plain Text** change how the completed result is displayed/exported; switching
+those views does not run the model again.
 
 ### PDF page selection
 
@@ -64,7 +67,6 @@ The tool's settings hold the **Model** row (as the app puts it: "On-device docum
 | "Some pages came out nearly blank — they may suit the other mode." | The chosen mode struggled with those pages' layout | Use the banner's re-run button to try the other mode on the same document |
 | Output cuts off mid-document | The per-page token cap was reached | Raise **Max tokens** in the tool's settings, then **Recognize** again |
 | Garbled output from a photo | The input isn't a document — it's a scene photo or meme | Use document-style input; that's what the tool is built for |
-| First run is slow | The model loads once per session ("Loading model…") | Subsequent runs are faster |
 | Still stuck | — | [Open an issue](https://github.com/nanguoyu/OtterPix-app/issues/new/choose) |
 
 ## See also
