@@ -6,7 +6,7 @@
 
 # OtterPix
 
-**Bildbearbeitung & KI, die deinen Mac nie verlässt**
+**Bildbearbeitung & AI, die deinen Mac nie verlässt**
 
 **[Im Mac App Store laden](https://apps.apple.com/app/id6772468615)**
 
@@ -18,7 +18,7 @@ macOS 14+, Apple Silicon, Gratis-Download mit Pro per In-App-Kauf, 18 Sprachen
 
 ## Was ist OtterPix
 
-OtterPix ist ein Bild-Werkzeugkasten für den Mac, bei dem jede Operation – von der Formatkonvertierung bis zur KI-Bearbeitung – vollständig auf deinem Rechner läuft. Zehn Ein-Klick-Basiswerkzeuge, eine visuelle Pipeline für Stapel-Workflows und ein Satz lokaler KI-Funktionen decken die täglichen Aufgaben ab: konvertieren, komprimieren, skalieren, Wasserzeichen setzen, umbenennen, Metadaten prüfen, Hintergründe entfernen, Objekte wegretuschieren, Gesichter wiederherstellen, Text erkennen und Bilder generieren. Die KI-Funktionen sind für Apple Silicon beschleunigt; ihre Modelle werden bei Bedarf geladen, und die Inferenz arbeitet offline, sobald die benötigten Dateien vorhanden sind. Pro ergänzt Ordnerautomatisierung; unterstützte Werkzeuge und gespeicherte Voreinstellungen lassen sich auch über Kurzbefehle/App Intents und AppleScript aufrufen.
+OtterPix ist ein Bild-Werkzeugkasten für den Mac, bei dem jede Operation – von der Formatkonvertierung bis zur AI-Bearbeitung – vollständig auf deinem Rechner läuft. Zehn Ein-Klick-Basiswerkzeuge, eine visuelle Pipeline für Stapel-Workflows und ein Satz lokaler AI-Funktionen decken die täglichen Aufgaben ab: konvertieren, komprimieren, skalieren, Wasserzeichen setzen, umbenennen, Metadaten prüfen, Hintergründe entfernen, Objekte wegretuschieren, Gesichter wiederherstellen, Text erkennen und Bilder generieren. Die AI-Funktionen sind für Apple Silicon beschleunigt; ihre Modelle werden bei Bedarf geladen, und die Inferenz arbeitet offline, sobald die benötigten Dateien vorhanden sind. Pro ergänzt Ordnerautomatisierung; unterstützte Werkzeuge und gespeicherte Voreinstellungen lassen sich auch über Kurzbefehle/App Intents und AppleScript aufrufen.
 
 Bilder, Generierungs-Prompts, OCR-Inhalte und Nutzungs-Telemetrie werden nie hochgeladen. OtterPix verbindet sich für StoreKit, eine Cloudflare-Abfrage des Edge-Landes beim Start, die ausschließlich den Modell-Downloadspiegel auswählt, eine kleine Aktualisierung des ausschließlich Download-URLs enthaltenden Modell-Manifests bei der ersten Nutzung der Modellverwaltung sowie von dir gestartete Modell-Downloads.
 
@@ -39,20 +39,20 @@ Bilder, Generierungs-Prompts, OCR-Inhalte und Nutzungs-Telemetrie werden nie hoc
 | [PDF zu Bild](docs/de/tools/pdf-and-qr.md) | PDF-Seiten in Bilddateien umwandeln |
 | [QR-Code](docs/de/tools/pdf-and-qr.md) | QR-Codes aus Text oder URLs erstellen |
 | [Pipeline](docs/de/pipeline.md) | Mehrere Werkzeuge zu einem Batch-Workflow verketten |
-| [KI-Texterkennung](docs/de/ai/ai-ocr.md) | Papers, Scans & PDFs → Markdown mit Tabellen und Formeln. Auf dem Gerät. |
-| [KI-Bilderzeugung](docs/de/ai/ai-generation.md) | Bilder mit KI aus Textbeschreibungen erstellen |
+| [AI Texterkennung](docs/de/ai/ai-ocr.md) | Papers, Scans & PDFs → Markdown mit Tabellen und Formeln. Auf dem Gerät. |
+| [AI Bilderzeugung](docs/de/ai/ai-generation.md) | Bilder mit AI aus Textbeschreibungen erstellen |
 
-### Pro-KI
+### Pro-AI
 
 | Werkzeug | Was es macht |
 |---|---|
-| [KI-Upscale](docs/de/ai/ai-upscale.md) | Bilder bis zu 4× schärfen und vergrößern |
-| [KI Freistellen](docs/de/ai/ai-cutout.md) | Den Hintergrund eines Fotos entfernen |
-| [KI-Radierer](docs/de/ai/ai-eraser.md) | Unerwünschte Objekte übermalen und den Hintergrund von der KI ergänzen lassen |
+| [AI Upscale](docs/de/ai/ai-upscale.md) | Bilder bis zu 4× schärfen und vergrößern |
+| [AI Freistellen](docs/de/ai/ai-cutout.md) | Den Hintergrund eines Fotos entfernen |
+| [AI Radierer](docs/de/ai/ai-eraser.md) | Unerwünschte Objekte übermalen und den Hintergrund von der AI ergänzen lassen |
 | [AI Anonymisieren](docs/de/ai/ai-anonymize.md) | Personen und Fahrzeuge automatisch erkennen und unkenntlich machen |
-| [KI-Wiederherstellung](docs/de/ai/ai-restore.md) | Verschwommene oder detailarme Gesichter in alten Porträts schärfen |
+| [AI Wiederherstellung](docs/de/ai/ai-restore.md) | Verschwommene oder detailarme Gesichter in alten Porträts schärfen |
 
-Gratis-Plan: eine Gratis-Nutzung jedes Pro-KI-Werkzeugs pro Tag.
+Gratis-Plan: eine Gratis-Nutzung jedes Pro-AI-Werkzeugs pro Tag.
 
 ## Über dieses Repository
 
@@ -92,15 +92,15 @@ Closed Source heißt nicht „glaub uns einfach“: Die App läuft in der macOS-
 - [Metadaten](docs/de/tools/metadata.md)
 - [PDF zu Bild & QR-Code](docs/de/tools/pdf-and-qr.md)
 
-**KI**
+**AI**
 
-- [KI-Upscale](docs/de/ai/ai-upscale.md)
-- [KI Freistellen](docs/de/ai/ai-cutout.md)
-- [KI-Radierer](docs/de/ai/ai-eraser.md)
+- [AI Upscale](docs/de/ai/ai-upscale.md)
+- [AI Freistellen](docs/de/ai/ai-cutout.md)
+- [AI Radierer](docs/de/ai/ai-eraser.md)
 - [AI Anonymisieren](docs/de/ai/ai-anonymize.md)
-- [KI-Wiederherstellung](docs/de/ai/ai-restore.md)
-- [KI-Texterkennung](docs/de/ai/ai-ocr.md)
-- [KI-Bilderzeugung](docs/de/ai/ai-generation.md)
+- [AI Wiederherstellung](docs/de/ai/ai-restore.md)
+- [AI Texterkennung](docs/de/ai/ai-ocr.md)
+- [AI Bilderzeugung](docs/de/ai/ai-generation.md)
 
 **Pipeline**
 
@@ -117,7 +117,7 @@ Jede Version wird hier mit ihren Versionshinweisen getaggt – **Watch → Custo
 
 ## Danksagungen
 
-Die KI-Funktionen von OtterPix bauen auf herausragender Open-Source-Forschung und offenen Modellen auf:
+Die AI-Funktionen von OtterPix bauen auf herausragender Open-Source-Forschung und offenen Modellen auf:
 
 - [FLUX.2 Klein](https://huggingface.co/black-forest-labs/FLUX.2-klein-4B) – Black Forest Labs
 - [Qwen3-4B](https://huggingface.co/Qwen/Qwen3-4B) – Text-Encoder

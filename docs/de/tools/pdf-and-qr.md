@@ -30,7 +30,7 @@ Zwei kleine, präzise Helfer: **PDF zu Bild** rendert PDF-Seiten in der Auflösu
 
 - **PDFs rendern in jeder DPI** – die Quelle ist, wo möglich, Vektor; eine höhere DPI bringt also echte Schärfe statt bloß skalierter Pixel.
 - **Eine Datei pro Seite.** Ein Bereichs-Export schreibt nummerierte Bilder, fertig für Folien oder Web-Einbettung.
-- ***Text* aus einem gescannten PDF zu holen ist ein anderer Job** – das ist [KI-Texterkennung](../ai/ai-ocr.md), die Dokumente und Scans in Markdown verwandelt.
+- ***Text* aus einem gescannten PDF zu holen ist ein anderer Job** – das ist [AI Texterkennung](../ai/ai-ocr.md), die Dokumente und Scans in Markdown verwandelt.
 
 ## QR-Code
 
@@ -70,7 +70,7 @@ Zwei kleine, präzise Helfer: **PDF zu Bild** rendert PDF-Seiten in der Auflösu
 
 ## Siehe auch
 
-- [KI-Texterkennung](../ai/ai-ocr.md) – Text aus Dokumenten und gescannten PDFs holen
+- [AI Texterkennung](../ai/ai-ocr.md) – Text aus Dokumenten und gescannten PDFs holen
 - [Formatkonvertierung & Komprimierung](convert-and-compress.md)
 - [FAQ](../faq.md)
 

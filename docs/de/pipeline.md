@@ -31,10 +31,10 @@ Eine Pipeline ist eine Kette von links nach rechts: ein **Eingabe**-Knoten, dein
 | **Zuschneiden** | Nach Seitenverhältnis und Ausrichtung – siehe [Zuschneiden](tools/resize-crop-rotate.md) |
 | **Wasserzeichen** | Textwasserzeichen mit Schrift, Farbe, Winkel, Deckkraft, Dichte – siehe [Wasserzeichen](tools/watermark.md) |
 | **Metadaten löschen** | Entfernt EXIF/GPS – siehe [Metadaten](tools/metadata.md) |
-| **KI-Upscale** | Pro – siehe [KI-Upscale](ai/ai-upscale.md) |
-| **KI Freistellen** | Pro – siehe [KI Freistellen](ai/ai-cutout.md) |
+| **AI Upscale** | Pro – siehe [AI Upscale](ai/ai-upscale.md) |
+| **AI Freistellen** | Pro – siehe [AI Freistellen](ai/ai-cutout.md) |
 
-Das ist die vollständige Liste. KI-Radierer, AI Anonymisieren, KI-Wiederherstellung, KI-Texterkennung und KI-Bilderzeugung sind interaktive Werkzeuge – sie brauchen pro Bild dein Malen, Klicken oder Tippen – und daher keine Pipeline-Schritte. Ausgabeformat und Kompressionsqualität werden am **Ausgabe**-Knoten eingestellt, nicht als Schritte.
+Das ist die vollständige Liste. AI Radierer, AI Anonymisieren, AI Wiederherstellung, AI Texterkennung und AI Bilderzeugung sind interaktive Werkzeuge – sie brauchen pro Bild dein Malen, Klicken oder Tippen – und daher keine Pipeline-Schritte. Ausgabeformat und Kompressionsqualität werden am **Ausgabe**-Knoten eingestellt, nicht als Schritte.
 
 ## Eine Pipeline bauen
 
@@ -55,11 +55,11 @@ Es gibt kein festes Bildlimit – die Pipeline ist für ganze Ordner gebaut. All
 
 ## Transparenz-Tipp
 
-**KI Freistellen** erzeugt Transparenz, und die App warnt vor dem einen Weg, sie zu verlieren: Der Schritt liefert RGBA-Ausgabe, und alle nachfolgenden Schritte müssen den Alphakanal erhalten – PNG/WebP/AVIF statt JPEG, und kein KI-Upscale danach. Also: Stell das **Ausgabeformat** auf PNG (oder WebP/AVIF) und setz den Schritt **KI Freistellen** ans Ende der Kette.
+**AI Freistellen** erzeugt Transparenz, und die App warnt vor dem einen Weg, sie zu verlieren: Der Schritt liefert RGBA-Ausgabe, und alle nachfolgenden Schritte müssen den Alphakanal erhalten – PNG/WebP/AVIF statt JPEG, und kein AI Upscale danach. Also: Stell das **Ausgabeformat** auf PNG (oder WebP/AVIF) und setz den Schritt **AI Freistellen** ans Ende der Kette.
 
 ## Grenzen im Gratis-Plan
 
-- Der Hinweis in der App: „Gratis: ein Bild pro Pipeline mit Pro-Schritt. Upgrade für Stapel.“ Eine Gratis-Pipeline darf **einen** Pro-Schritt enthalten (**KI-Upscale** oder **KI Freistellen**), und solange ein Pro-Schritt enthalten ist, ist der Stapel auf ein einzelnes Bild begrenzt.
+- Der Hinweis in der App: „Gratis: ein Bild pro Pipeline mit Pro-Schritt. Upgrade für Stapel.“ Eine Gratis-Pipeline darf **einen** Pro-Schritt enthalten (**AI Upscale** oder **AI Freistellen**), und solange ein Pro-Schritt enthalten ist, ist der Stapel auf ein einzelnes Bild begrenzt.
 - Der Lauf dieses Pro-Schritts verbraucht dieselbe tägliche Gratis-Nutzung wie das eigenständige Werkzeug.
 - Beim Laden einer gespeicherten Vorlage überspringt der Gratis-Plan enthaltene Pro-Schritte – füg den Pro-Schritt manuell hinzu, wenn du deine tägliche Nutzung dafür einsetzen willst.
 - Für Abonnenten gibt es weder Schritt- noch Stapelgrenzen.
@@ -68,16 +68,16 @@ Es gibt kein festes Bildlimit – die Pipeline ist für ganze Ordner gebaut. All
 
 | Du siehst | Ursache | Lösung |
 |---|---|---|
-| Ein KI-Schritt meldet, dass das Modell nicht geladen ist | Das Modell des Schritts wurde noch nicht heruntergeladen | Öffne das zugehörige Werkzeug (KI-Upscale / KI Freistellen) und lade das Modell dort, oder nutze **Einstellungen → KI** |
+| Ein AI-Schritt meldet, dass das Modell nicht geladen ist | Das Modell des Schritts wurde noch nicht heruntergeladen | Öffne das zugehörige Werkzeug (AI Upscale / AI Freistellen) und lade das Modell dort, oder nutze **Einstellungen → AI** |
 | „Gratis: ein Bild pro Pipeline mit Pro-Schritt.“ | Gratis-Plan-Grenze, solange ein Pro-Schritt in der Kette ist | Ein Bild pro Lauf verarbeiten, den Pro-Schritt entfernen oder upgraden |
 | Ein Wasserzeichen ist abgeschnitten oder unscharf | Der Wasserzeichen-Schritt steht vor einem Zuschneiden- oder Größe-ändern-Schritt | Wasserzeichen hinter Zuschneiden/Größe ändern schieben – die App warnt genau in diesem Fall („Wasserzeichen vor Größenänderung kann unscharf werden“) |
-| Das Ergebnis hat seine Transparenz verloren | Ein JPEG-Ausgabeformat oder ein KI-Upscale-Schritt nach KI Freistellen hat sie entfernt | Als PNG/WebP/AVIF ausgeben und KI Freistellen ans Ende der Kette setzen |
+| Das Ergebnis hat seine Transparenz verloren | Ein JPEG-Ausgabeformat oder ein AI-Upscale-Schritt nach AI Freistellen hat sie entfernt | Als PNG/WebP/AVIF ausgeben und AI Freistellen ans Ende der Kette setzen |
 | Weiterhin Probleme | — | [Issue eröffnen](https://github.com/nanguoyu/OtterPix-app/issues/new/choose) |
 
 ## Siehe auch
 
-- [KI-Upscale](ai/ai-upscale.md)
-- [KI Freistellen](ai/ai-cutout.md)
+- [AI Upscale](ai/ai-upscale.md)
+- [AI Freistellen](ai/ai-cutout.md)
 - [Erste Schritte](getting-started.md)
 
 ---

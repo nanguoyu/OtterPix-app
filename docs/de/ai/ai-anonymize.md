@@ -18,15 +18,15 @@
 | **Ausgabe** | Das Foto mit den gewählten Erkennungen, verdeckt im gewählten Stil |
 | **Pipeline-Schritt** | Nein – wer sichtbar bleibt, entscheidest du interaktiv |
 
-Bildverarbeitung und KI-Inferenz bleiben auf deinem Mac. Bilder, Generierungs-Prompts, OCR-Inhalte und Nutzungs-Telemetrie werden nie hochgeladen. OtterPix kann sich für StoreKit, eine beim Start ausschließlich für das Modell-Download-Routing genutzte Cloudflare-Abfrage des Edge-Landes, eine kleine Aktualisierung des ausschließlich Download-URLs enthaltenden Modell-Manifests bei der ersten Nutzung der Modellverwaltung sowie von dir gestartete Modell-Downloads verbinden.
+Bildverarbeitung und AI-Inferenz bleiben auf deinem Mac. Bilder, Generierungs-Prompts, OCR-Inhalte und Nutzungs-Telemetrie werden nie hochgeladen. OtterPix kann sich für StoreKit, eine beim Start ausschließlich für das Modell-Download-Routing genutzte Cloudflare-Abfrage des Edge-Landes, eine kleine Aktualisierung des ausschließlich Download-URLs enthaltenden Modell-Manifests bei der ersten Nutzung der Modellverwaltung sowie von dir gestartete Modell-Downloads verbinden.
 
 ## So anonymisierst du ein Foto
 
-1. Öffne OtterPix und klicke im KI-Bereich des Werkzeugrasters auf **AI Anonymisieren**.
+1. Öffne OtterPix und klicke im AI-Bereich des Werkzeugrasters auf **AI Anonymisieren**.
 2. Leg dein Foto im Bereich **Eingabe** ab.
-3. Klicke auf **Anonymisieren**. Die lokale KI findet die Personen und Fahrzeuge im Bild, nummeriert jede Erkennung und zeigt das verdeckte Ergebnis im Bereich **Ausgabe**.
+3. Klicke auf **Anonymisieren**. Die lokale AI findet die Personen und Fahrzeuge im Bild, nummeriert jede Erkennung und zeigt das verdeckte Ergebnis im Bereich **Ausgabe**.
 4. Wähl eine **Methode**: **Verwischen**, **Mosaik**, **Hex-Mosaik**, **Volltonfarbe** oder **Regenbogenblöcke**. **Radius** erweitert die verdeckte Fläche um jede Erkennung; die übrigen Regler hängen vom Stil ab (siehe unten).
-5. Klicke auf ein nummeriertes Feld in der Eingabe, um diese Person oder dieses Fahrzeug auszunehmen – die Ausgabe baut sich sofort neu auf, ohne neuen KI-Lauf. Ein weiterer Klick verdeckt wieder. Der Overlay-Hinweis sagt es so: „Klicke auf ein Feld, um dieses Objekt unverändert zu lassen.“
+5. Klicke auf ein nummeriertes Feld in der Eingabe, um diese Person oder dieses Fahrzeug auszunehmen – die Ausgabe baut sich sofort neu auf, ohne neuen AI-Lauf. Ein weiterer Klick verdeckt wieder. Der Overlay-Hinweis sagt es so: „Klicke auf ein Feld, um dieses Objekt unverändert zu lassen.“
 6. Klicke auf **Speichern** (⌘S) und wähl, wohin die anonymisierte Kopie kommt. Deine Originaldatei bleibt unangetastet.
 
 ## Optionen
@@ -55,7 +55,7 @@ Klassen-Chips setzen die Regel; Klicks auf nummerierte Felder machen die Ausnahm
 
 - **Auf vollen Fotos präzise klicken.** Bei sich überlappenden Personen ordnet OtterPix deinen Klick der Person zu, die tatsächlich unter dem Cursor liegt – klick die Person an, nicht nur in ihre Nähe.
 - **Der Stil deckt die ganze Erkennung ab.** Eine verdeckte Person schließt ihr Gesicht ein; ein verdecktes Fahrzeug sein Kennzeichen.
-- **Vor dem Veröffentlichen prüfen.** Die Erkennung ist ein starker erster Durchgang, kein Urteil – sehr kleine, angeschnittene oder stark verdeckte Motive können durchrutschen. Für einen übrig gebliebenen Rest ist der [KI-Radierer](ai-eraser.md) das Partnerwerkzeug: übermalen und ganz entfernen.
+- **Vor dem Veröffentlichen prüfen.** Die Erkennung ist ein starker erster Durchgang, kein Urteil – sehr kleine, angeschnittene oder stark verdeckte Motive können durchrutschen. Für einen übrig gebliebenen Rest ist der [AI Radierer](ai-eraser.md) das Partnerwerkzeug: übermalen und ganz entfernen.
 - **Nur Standbilder.** AI Anonymisieren arbeitet auf Bildern, nicht auf Video. Für einen Clip exportierst du die Frames, die du veröffentlichen willst, und anonymisierst diese.
 - **Die Anzeige bestätigt die Abdeckung** – „3 Bereich(e) verdeckt“ nennt exakt, wie viele Erkennungen betroffen waren.
 
@@ -64,14 +64,14 @@ Klassen-Chips setzen die Regel; Klicks auf nummerierte Felder machen die Ausnahm
 | Du siehst | Ursache | Lösung |
 |---|---|---|
 | „Wähle mindestens eine Klasse zum Verwischen aus.“ | Alle Zielklassen sind abgeschaltet | Eine Klasse in der Zeile **Ziele:** wieder aktivieren (oder über **Weitere Ziele …**) |
-| Ein Hinweis, dass das Modell fehlt | Das Erkennungsmodell (~138 MB) liegt nicht auf der Platte | Im Fehler auf **Einstellungen öffnen** klicken und es laden (auch unter **Einstellungen → KI**) |
-| „Gratis-Nutzung dieses Werkzeugs heute aufgebraucht“ | „Jedes KI-Werkzeug hat täglich eine Gratis-Nutzung – diese wird um Mitternacht zurückgesetzt.“ | Auf den Reset warten oder upgraden. Das heutige Foto bleibt frei nachjustierbar |
-| Eine Person oder ein Kennzeichen wurde nicht erkannt | Zu klein, am Rand angeschnitten oder stark verdeckt | Nichts ausnehmen und noch einmal prüfen; Reste mit dem [KI-Radierer](ai-eraser.md) beseitigen |
+| Ein Hinweis, dass das Modell fehlt | Das Erkennungsmodell (~138 MB) liegt nicht auf der Platte | Im Fehler auf **Einstellungen öffnen** klicken und es laden (auch unter **Einstellungen → AI**) |
+| „Gratis-Nutzung dieses Werkzeugs heute aufgebraucht“ | „Jedes AI-Werkzeug hat täglich eine Gratis-Nutzung – diese wird um Mitternacht zurückgesetzt.“ | Auf den Reset warten oder upgraden. Das heutige Foto bleibt frei nachjustierbar |
+| Eine Person oder ein Kennzeichen wurde nicht erkannt | Zu klein, am Rand angeschnitten oder stark verdeckt | Nichts ausnehmen und noch einmal prüfen; Reste mit dem [AI Radierer](ai-eraser.md) beseitigen |
 | Weiterhin Probleme | — | [Issue eröffnen](https://github.com/nanguoyu/OtterPix-app/issues/new/choose) |
 
 ## Siehe auch
 
-- [KI-Radierer](ai-eraser.md) – ein Motiv entfernen statt verwischen
+- [AI Radierer](ai-eraser.md) – ein Motiv entfernen statt verwischen
 - [Metadaten](../tools/metadata.md) – vor dem Teilen auch GPS entfernen
 - [FAQ – Datenschutz & Netzwerk](../faq.md#datenschutz--netzwerk)
 

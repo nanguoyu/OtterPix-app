@@ -2,11 +2,11 @@
 
 ---
 
-# KI-Radierer
+# AI Radierer
 
-Der **KI-Radierer** entfernt unerwünschte Objekte aus Fotos: Übermale den Touristen, das Kabel, die Mülltonne – und die übermalte Fläche füllt sich mit passendem Hintergrund. Der Ablauf ist bewusst iterativ: löschen, prüfen, nachbessern, wieder löschen.
+Der **AI Radierer** entfernt unerwünschte Objekte aus Fotos: Übermale den Touristen, das Kabel, die Mülltonne – und die übermalte Fläche füllt sich mit passendem Hintergrund. Der Ablauf ist bewusst iterativ: löschen, prüfen, nachbessern, wieder löschen.
 
-![Der OtterPix-KI-Radierer auf macOS mit einer über ein Objekt gemalten Maske im Eingabe-Bereich und dem bereinigten Ergebnis daneben.](../../../assets/de/aiEraser.webp)
+![Der OtterPix-AI-Radierer auf macOS mit einer über ein Objekt gemalten Maske im Eingabe-Bereich und dem bereinigten Ergebnis daneben.](../../../assets/de/aiEraser.webp)
 
 ## Auf einen Blick
 
@@ -18,13 +18,13 @@ Der **KI-Radierer** entfernt unerwünschte Objekte aus Fotos: Übermale den Tour
 | **Ausgabe** | Das Foto mit aufgefüllten übermalten Flächen |
 | **Pipeline-Schritt** | Nein – Löschen braucht deine Pinselarbeit pro Foto |
 
-Bildverarbeitung und KI-Inferenz bleiben auf deinem Mac. Bilder, Generierungs-Prompts, OCR-Inhalte und Nutzungs-Telemetrie werden nie hochgeladen. OtterPix kann sich für StoreKit, eine beim Start ausschließlich für das Modell-Download-Routing genutzte Cloudflare-Abfrage des Edge-Landes, eine kleine Aktualisierung des ausschließlich Download-URLs enthaltenden Modell-Manifests bei der ersten Nutzung der Modellverwaltung sowie von dir gestartete Modell-Downloads verbinden.
+Bildverarbeitung und AI-Inferenz bleiben auf deinem Mac. Bilder, Generierungs-Prompts, OCR-Inhalte und Nutzungs-Telemetrie werden nie hochgeladen. OtterPix kann sich für StoreKit, eine beim Start ausschließlich für das Modell-Download-Routing genutzte Cloudflare-Abfrage des Edge-Landes, eine kleine Aktualisierung des ausschließlich Download-URLs enthaltenden Modell-Manifests bei der ersten Nutzung der Modellverwaltung sowie von dir gestartete Modell-Downloads verbinden.
 
 ## So löschst du ein Objekt
 
 Der Hinweis der App ist der ganze Ablauf: *Markiere, was entfernt werden soll, dann „Löschen“ klicken (oder Cmd-Return).*
 
-1. Öffne OtterPix und klicke auf **KI-Radierer**. Beim ersten Einsatz lädt die App ihr Radierer-Modell einmalig herunter (rund 200 MB) – danach arbeitet sie offline.
+1. Öffne OtterPix und klicke auf **AI Radierer**. Beim ersten Einsatz lädt die App ihr Radierer-Modell einmalig herunter (rund 200 MB) – danach arbeitet sie offline.
 2. Zieh dein Foto ins Fenster, oder klicke, um eine Datei zu wählen.
 3. Nimm den **Pinsel** (B) und stell die Pinselgröße ein – klein für ein Kabel, größer für eine Person. Übermale, was verschwinden soll; deck es vollständig ab, mit etwas Rand um die Kanten.
 4. Klicke auf **Löschen** (oder drücke ⌘⏎). Einen Moment später ist die übermalte Fläche im Bereich **Ergebnis** mit passendem Hintergrund gefüllt.
@@ -52,15 +52,15 @@ Der Hinweis der App ist der ganze Ablauf: *Markiere, was entfernt werden soll, d
 | Du siehst | Ursache | Lösung |
 |---|---|---|
 | „Übermale zuerst den Bereich, der entfernt werden soll.“ | Die Maske ist leer | Erst das Objekt übermalen, dann auf **Löschen** klicken |
-| Ein Hinweis, dass das Modell fehlt | Das Radierer-Modell liegt noch nicht auf der Platte | Den Download im Zahnrad-Menü des Werkzeugs nutzen, oder **Einstellungen → KI** |
-| „Gratis-Nutzung dieses Werkzeugs heute aufgebraucht“ | „Jedes KI-Werkzeug hat täglich eine Gratis-Nutzung – diese wird um Mitternacht zurückgesetzt.“ | Auf den Reset warten oder upgraden. Das heutige Foto bleibt frei weiter verfeinerbar |
+| Ein Hinweis, dass das Modell fehlt | Das Radierer-Modell liegt noch nicht auf der Platte | Den Download im Zahnrad-Menü des Werkzeugs nutzen, oder **Einstellungen → AI** |
+| „Gratis-Nutzung dieses Werkzeugs heute aufgebraucht“ | „Jedes AI-Werkzeug hat täglich eine Gratis-Nutzung – diese wird um Mitternacht zurückgesetzt.“ | Auf den Reset warten oder upgraden. Das heutige Foto bleibt frei weiter verfeinerbar |
 | Ein Geist oder Schleier, wo das Objekt war | Die Füllung hatte zu wenig Kontext, oder die Maske war zu knapp | **Rückgängig**, mit mehr Rand neu malen und in kleineren Durchgängen löschen |
 | Weiterhin Probleme | — | [Issue eröffnen](https://github.com/nanguoyu/OtterPix-app/issues/new/choose) |
 
 ## Siehe auch
 
 - [AI Anonymisieren](ai-anonymize.md) – Personen unkenntlich machen statt entfernen
-- [KI Freistellen](ai-cutout.md) – das Motiv behalten, den Hintergrund entfernen
+- [AI Freistellen](ai-cutout.md) – das Motiv behalten, den Hintergrund entfernen
 - [FAQ – Kostenlos & Pro](../faq.md#kostenlos--pro)
 
 ---

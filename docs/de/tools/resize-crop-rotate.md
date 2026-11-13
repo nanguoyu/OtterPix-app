@@ -50,7 +50,7 @@ Das Geometrie-Trio: **Größe ändern** skaliert Bilder prozentual oder auf exak
 
 ## Tipps und Grenzen
 
-- **Größe ändern erfindet keine Details.** *Hochskalieren* mit diesem Werkzeug interpoliert nur Pixel. Um ein Foto zu vergrößern und dabei plausible Details zu ergänzen, nimm stattdessen [KI-Upscale](../ai/ai-upscale.md).
+- **Größe ändern erfindet keine Details.** *Hochskalieren* mit diesem Werkzeug interpoliert nur Pixel. Um ein Foto zu vergrößern und dabei plausible Details zu ergänzen, nimm stattdessen [AI Upscale](../ai/ai-upscale.md).
 - **In der Pipeline zählt die Reihenfolge.** Setz **Zuschneiden** und **Größe ändern** vor **Wasserzeichen** – die App warnt, wenn ein Wasserzeichen-Schritt davor steht, weil es sonst abgeschnitten oder unscharf werden kann.
 - **Sperr das Seitenverhältnis, außer du willst es anders.** Ein entsperrtes Skalieren auf beliebige Breite × Höhe verzerrt das Bild. Das Kettenglied-Symbol zeigt den aktuellen Zustand auf einen Blick.
 
@@ -59,14 +59,14 @@ Das Geometrie-Trio: **Größe ändern** skaliert Bilder prozentual oder auf exak
 | Du siehst | Ursache | Lösung |
 |---|---|---|
 | Das skalierte Bild wirkt verzerrt | **Seitenverhältnis sperren** war aus und beide Felder wurden geändert | Sperre aktivieren und eine Dimension neu eingeben |
-| Das vergrößerte Bild wirkt weich | Größe ändern interpoliert; Details kann es nicht ergänzen | Zum Vergrößern [KI-Upscale](../ai/ai-upscale.md) verwenden |
+| Das vergrößerte Bild wirkt weich | Größe ändern interpoliert; Details kann es nicht ergänzen | Zum Vergrößern [AI Upscale](../ai/ai-upscale.md) verwenden |
 | Das gedrehte Bild hat zusätzliche leere Flächen | Freie Drehung vergrößert die Leinwand, damit der gedrehte Rahmen hineinpasst | Erwartet – danach zuschneiden, wenn der Rahmen eng sitzen soll |
 | Weiterhin Probleme | — | [Issue eröffnen](https://github.com/nanguoyu/OtterPix-app/issues/new/choose) |
 
 ## Siehe auch
 
 - [Pipeline](../pipeline.md) – Größe ändern, Drehen und Zuschneiden als Stapel-Schritte
-- [KI-Upscale](../ai/ai-upscale.md) – Vergrößern mit Detailrekonstruktion
+- [AI Upscale](../ai/ai-upscale.md) – Vergrößern mit Detailrekonstruktion
 - [Formatkonvertierung & Komprimierung](convert-and-compress.md)
 
 ---

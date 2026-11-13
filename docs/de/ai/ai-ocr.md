@@ -2,11 +2,11 @@
 
 ---
 
-# KI-Texterkennung
+# AI Texterkennung
 
-**KI-Texterkennung** – im App Store als „KI-Texterkennung (OCR)“ gelistet – macht aus Dokumenten Text, mit dem du arbeiten kannst. In den Worten der App: „Papers, Scans & PDFs → Markdown mit Tabellen und Formeln. Auf dem Gerät.“ Gib ihr eine gescannte Seite, ein abfotografiertes Dokument oder ein mehrseitiges PDF, und du bekommst strukturiertes Markdown zurück – Überschriften, Tabellen, Formeln und Abbildungen inklusive.
+**AI Texterkennung** – im App Store als „AI Texterkennung (OCR)“ gelistet – macht aus Dokumenten Text, mit dem du arbeiten kannst. In den Worten der App: „Papers, Scans & PDFs → Markdown mit Tabellen und Formeln. Auf dem Gerät.“ Gib ihr eine gescannte Seite, ein abfotografiertes Dokument oder ein mehrseitiges PDF, und du bekommst strukturiertes Markdown zurück – Überschriften, Tabellen, Formeln und Abbildungen inklusive.
 
-![Die OtterPix-KI-Texterkennung auf macOS mit einem gescannten Dokument links und dem erkannten, gerenderten Markdown rechts.](../../../assets/de/aiOCR.webp)
+![Die OtterPix-AI-Texterkennung auf macOS mit einem gescannten Dokument links und dem erkannten, gerenderten Markdown rechts.](../../../assets/de/aiOCR.webp)
 
 ## Auf einen Blick
 
@@ -18,13 +18,13 @@
 | **Ausgabe** | Markdown oder Reintext – kopieren oder exportieren |
 | **Pipeline-Schritt** | Nein |
 
-Bildverarbeitung und KI-Inferenz bleiben auf deinem Mac. Bilder, Generierungs-Prompts, OCR-Inhalte und Nutzungs-Telemetrie werden nie hochgeladen. OtterPix kann sich für StoreKit, eine beim Start ausschließlich für das Modell-Download-Routing genutzte Cloudflare-Abfrage des Edge-Landes, eine kleine Aktualisierung des ausschließlich Download-URLs enthaltenden Modell-Manifests bei der ersten Nutzung der Modellverwaltung sowie von dir gestartete Modell-Downloads verbinden.
+Bildverarbeitung und AI-Inferenz bleiben auf deinem Mac. Bilder, Generierungs-Prompts, OCR-Inhalte und Nutzungs-Telemetrie werden nie hochgeladen. OtterPix kann sich für StoreKit, eine beim Start ausschließlich für das Modell-Download-Routing genutzte Cloudflare-Abfrage des Edge-Landes, eine kleine Aktualisierung des ausschließlich Download-URLs enthaltenden Modell-Manifests bei der ersten Nutzung der Modellverwaltung sowie von dir gestartete Modell-Downloads verbinden.
 
-**Regionaler Hinweis:** In der über den Mac App Store für Festlandchina vertriebenen Version von OtterPix sind KI-Bilderzeugung und KI-Texterkennung nicht verfügbar. Alle anderen Funktionen – einschließlich der fünf Pro-KI-Werkzeuge – sind in jeder Region verfügbar, in der OtterPix erscheint. Details in den [Nutzungsbedingungen](https://otterpix.app/de/terms).
+**Regionaler Hinweis:** In der über den Mac App Store für Festlandchina vertriebenen Version von OtterPix sind AI Bilderzeugung und AI Texterkennung nicht verfügbar. Alle anderen Funktionen – einschließlich der fünf Pro-AI-Werkzeuge – sind in jeder Region verfügbar, in der OtterPix erscheint. Details in den [Nutzungsbedingungen](https://otterpix.app/de/terms).
 
 ## So erkennst du ein Dokument
 
-1. Öffne OtterPix und klicke auf **KI-Texterkennung**. Der Leerzustand sagt alles: „Dokument oder PDF ablegen, um zu beginnen.“
+1. Öffne OtterPix und klicke auf **AI Texterkennung**. Der Leerzustand sagt alles: „Dokument oder PDF ablegen, um zu beginnen.“
 2. Leg ein Dokumentbild oder ein PDF ab. Bei PDFs zeigt das Werkzeug die Seitenzahl („PDF mit 12 Seiten“) und die Auswahl **Seiten** – alle Seiten erkennen oder einen Bereich.
 3. Wähl einen **Modus** (siehe Optionen).
 4. Klicke auf **Erkennen**. Der Fortschritt läuft pro Seite („Seite 3 von 12 wird verarbeitet“), mit **Pause** und **Fortsetzen** für lange Dokumente.
@@ -63,7 +63,7 @@ Die Einstellungen des Werkzeugs enthalten die **Modell**-Zeile (in den Worten de
 
 | Du siehst | Ursache | Lösung |
 |---|---|---|
-| „Das OCR-Modell ist noch nicht heruntergeladen.“ | Erste Nutzung – das Erkennungsmodell liegt nicht auf der Platte | Im Fehler auf **Einstellungen öffnen** klicken und es laden (auch unter **Einstellungen → KI**) |
+| „Das OCR-Modell ist noch nicht heruntergeladen.“ | Erste Nutzung – das Erkennungsmodell liegt nicht auf der Platte | Im Fehler auf **Einstellungen öffnen** klicken und es laden (auch unter **Einstellungen → AI**) |
 | „Einige Seiten sind fast leer — evtl. besser im anderen Modus.“ | Der gewählte Modus kam mit dem Layout dieser Seiten nicht zurecht | Über den Knopf im Banner den anderen Modus auf demselben Dokument laufen lassen |
 | Die Ausgabe bricht mitten im Dokument ab | Die Token-Obergrenze pro Seite wurde erreicht | **Max. Tokens** in den Einstellungen des Werkzeugs erhöhen, dann erneut **Erkennen** |
 | Wirre Ausgabe bei einem Foto | Die Eingabe ist kein Dokument, sondern ein Szenenfoto oder Meme | Dokumentartige Eingaben verwenden – dafür ist das Werkzeug gebaut |
