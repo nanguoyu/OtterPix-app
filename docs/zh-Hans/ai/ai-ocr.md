@@ -1,4 +1,4 @@
-[English](../../en/ai/ai-ocr.md) · **简体中文** · [繁體中文](../../zh-Hant/ai/ai-ocr.md) · [Deutsch](../../de/ai/ai-ocr.md)
+[English](../../en/ai/ai-ocr.md) | **简体中文** | [繁體中文](../../zh-Hant/ai/ai-ocr.md) | [Deutsch](../../de/ai/ai-ocr.md)
 
 ---
 

@@ -1,6 +1,8 @@
 # Security policy
 
-中文用户：安全问题请通过下述私密渠道报告。 · Deutschsprachige: Sicherheitsprobleme bitte vertraulich melden.
+中文用户：安全问题请通过下述私密渠道报告。
+
+Deutschsprachige: Sicherheitsprobleme bitte vertraulich melden.
 
 ## Scope
 

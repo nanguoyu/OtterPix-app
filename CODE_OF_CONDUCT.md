@@ -1,6 +1,8 @@
 # Contributor Covenant Code of Conduct
 
-中文用户：本行为准则同样适用于中文交流。 · Deutschsprachige: Dieser Verhaltenskodex gilt auch für Beiträge auf Deutsch.
+中文用户：本行为准则同样适用于中文交流。
+
+Deutschsprachige: Dieser Verhaltenskodex gilt auch für Beiträge auf Deutsch.
 
 ## Our Pledge
 

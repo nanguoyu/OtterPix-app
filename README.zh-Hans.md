@@ -1,4 +1,4 @@
-[English](README.md) · **简体中文** · [繁體中文](README.zh-Hant.md) · [Deutsch](README.de.md)
+[English](README.md) | **简体中文** | [繁體中文](README.zh-Hant.md) | [Deutsch](README.de.md)
 
 ---
 
@@ -10,7 +10,7 @@
 
 **[在 Mac App Store 下载](https://apps.apple.com/app/id6772468615)**
 
-macOS 14+ · Apple 芯片 · 免费下载，Pro 为应用内购买 · 支持 18 种语言
+macOS 14+，Apple 芯片，免费下载，Pro 为应用内购买，支持 18 种语言
 
 </div>
 
@@ -74,7 +74,7 @@ OtterPix 是一款通过 Mac App Store 分发的商业闭源应用——本仓�
 | 报告 Bug | [提交 Issue](https://github.com/nanguoyu/OtterPix-app/issues/new/choose) |
 | 咨询“这个怎么做” | [Discussions → Q&A](https://github.com/nanguoyu/OtterPix-app/discussions/categories/q-a) |
 | 提功能想法 | [Discussions → Ideas](https://github.com/nanguoyu/OtterPix-app/discussions/categories/ideas) |
-| 退款、管理订阅 | 购买事务均由 Apple 处理：[reportaproblem.apple.com](https://reportaproblem.apple.com) · [管理订阅](https://apps.apple.com/account/subscriptions) |
+| 退款、管理订阅 | 购买事务均由 Apple 处理：[reportaproblem.apple.com](https://reportaproblem.apple.com)，[管理订阅](https://apps.apple.com/account/subscriptions) |
 | 涉及隐私或敏感内容 | hello@otterpix.app |
 
 ## 文档
@@ -135,4 +135,4 @@ OtterPix 的 AI 功能建立在这些出色的开源研究与模型之上：
 
 © 2026 OtterPix (nanguoyu)。OtterPix 应用为专有软件。本仓库中的文档与截图可在注明出处的前提下分享。
 
-[隐私政策](https://otterpix.app/zh/privacy) · [服务条款](https://otterpix.app/zh/terms)
+[隐私政策](https://otterpix.app/zh/privacy) | [服务条款](https://otterpix.app/zh/terms)

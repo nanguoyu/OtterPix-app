@@ -1,4 +1,4 @@
-[English](../en/faq.md) · [简体中文](../zh-Hans/faq.md) · [繁體中文](../zh-Hant/faq.md) · **Deutsch**
+[English](../en/faq.md) | [简体中文](../zh-Hans/faq.md) | [繁體中文](../zh-Hant/faq.md) | **Deutsch**
 
 ---
 
@@ -26,7 +26,7 @@ macOS 14 (Sonoma) oder neuer auf einem Mac mit Apple Silicon (M1 oder neuer). In
 
 ### Welche Formate liest und schreibt OtterPix?
 
-Lesen und Schreiben: JPEG, PNG, TIFF, BMP, HEIC, WebP, AVIF – dazu eine Sektion **Andere Formate** im Format-Picker für die selteneren Formate, die dein Mac schreiben kann. Gelesen wird noch deutlich mehr: Die Ablagezone auf **Start** nennt PNG · JPEG · HEIC · TIFF · WebP · GIF +51. PDFs rendert das Werkzeug [PDF zu Bild](tools/pdf-and-qr.md) in beliebiger DPI zu Bildern.
+Lesen und Schreiben: JPEG, PNG, TIFF, BMP, HEIC, WebP, AVIF – dazu eine Sektion **Andere Formate** im Format-Picker für die selteneren Formate, die dein Mac schreiben kann. Gelesen wird noch deutlich mehr: Die Ablagezone auf **Start** nennt PNG, JPEG, HEIC, TIFF, WebP, GIF +51. PDFs rendert das Werkzeug [PDF zu Bild](tools/pdf-and-qr.md) in beliebiger DPI zu Bildern.
 
 ### Bleiben Farbprofile und die EXIF-Orientierung erhalten?
 

@@ -1,4 +1,4 @@
-**English** · [简体中文](../../zh-Hans/tools/convert-and-compress.md) · [繁體中文](../../zh-Hant/tools/convert-and-compress.md) · [Deutsch](../../de/tools/convert-and-compress.md)
+**English** | [简体中文](../../zh-Hans/tools/convert-and-compress.md) | [繁體中文](../../zh-Hant/tools/convert-and-compress.md) | [Deutsch](../../de/tools/convert-and-compress.md)
 
 ---
 
@@ -33,7 +33,7 @@ The classic case: iPhone photos saved as `.heic` that a Windows PC, an upload fo
 ### Formats
 
 - **Write:** JPEG, PNG, WebP, AVIF, HEIC, TIFF, BMP — plus the **Other Formats** section for everything else your Mac can encode.
-- **Read:** far more — the Home drop zone advertises PNG · JPEG · HEIC · TIFF · WebP · GIF +51, so GIFs and most anything else open fine as conversion *input*.
+- **Read:** far more — the Home drop zone advertises PNG, JPEG, HEIC, TIFF, WebP, GIF +51, so GIFs and most anything else open fine as conversion *input*.
 - Most operations preserve color profiles and EXIF orientation.
 
 ## Compress images
@@ -41,7 +41,7 @@ The classic case: iPhone photos saved as `.heic` that a Windows PC, an upload fo
 1. Click **Compression** and drop in a photo — or a whole batch, which adds a filmstrip along the bottom.
 2. Pick a **Preset**: **Small Size**, **Balanced**, or **High Quality**. They run from smallest file to finest quality, left to right, and adapt to each image rather than applying one fixed number.
 3. For an exact level, switch to **Custom** and drag the **Quality** slider.
-4. Check the readout above the preview: original size → new size, plus the percentage "of original size". If an image is already as small as it can usefully get, OtterPix says so — "Already optimal · original kept" — instead of inflating it.
+4. Check the readout above the preview: original size → new size, plus the percentage "of original size". If an image is already as small as it can usefully get, OtterPix says so — "Already optimal, original kept" — instead of inflating it.
 5. Click **Save** (⌘S) — or **Process All** for a batch — and choose where the compressed files land.
 
 ### Options
@@ -63,7 +63,7 @@ The classic case: iPhone photos saved as `.heic` that a Windows PC, an upload fo
 | You see | Why | Fix |
 |---|---|---|
 | "Quality setting has no effect on … format" | The chosen output format is lossless | Expected — pick a lossy format (JPEG/WebP/HEIC/AVIF) if you want a quality dial |
-| "Already optimal · original kept" | Recompressing would have made the file larger | Nothing to fix — OtterPix kept the smaller original |
+| "Already optimal, original kept" | Recompressing would have made the file larger | Nothing to fix — OtterPix kept the smaller original |
 | Result is larger than the original | Very high quality setting on an already-optimized file | Choose **Small Size** or lower the **Custom** quality |
 | Transparent areas turned white/black | Output format was JPEG | Convert to PNG, WebP, or AVIF instead |
 | Still stuck | — | [Open an issue](https://github.com/nanguoyu/OtterPix-app/issues/new/choose) |

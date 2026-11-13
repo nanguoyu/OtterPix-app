@@ -1,4 +1,4 @@
-**English** · [简体中文](../../zh-Hans/tools/batch-rename.md) · [繁體中文](../../zh-Hant/tools/batch-rename.md) · [Deutsch](../../de/tools/batch-rename.md)
+**English** | [简体中文](../../zh-Hans/tools/batch-rename.md) | [繁體中文](../../zh-Hant/tools/batch-rename.md) | [Deutsch](../../de/tools/batch-rename.md)
 
 ---
 

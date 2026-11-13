@@ -1,4 +1,4 @@
-[English](../en/getting-started.md) · [简体中文](../zh-Hans/getting-started.md) · [繁體中文](../zh-Hant/getting-started.md) · **Deutsch**
+[English](../en/getting-started.md) | [简体中文](../zh-Hans/getting-started.md) | [繁體中文](../zh-Hant/getting-started.md) | **Deutsch**
 
 ---
 
@@ -29,7 +29,7 @@ Alles, was du vom Download bis zur ersten fertigen Bearbeitung brauchst.
 - **Schnellaktionen** sind deine eigenen Kurzbefehle. In den **Einstellungen** wählst du aus, welche Funktionen dort erscheinen – die App formuliert es so: „Wählen, welche Funktionen als Schnellaktionen in der Seitenleiste und auf der Startseite erscheinen.“
 - **Einstellungen** hat vier Tabs: **Allgemein**, **Exportieren**, **KI** (Modell-Downloads und Speicher) und **Über**.
 
-**Ablagezone.** Fast jedes Werkzeug beginnt gleich: „**Bilder auswählen oder hierher ziehen**“ – „oder ⌘V zum Einfügen“. Die Ablagezone auf **Start** nennt die wichtigsten Formate – PNG · JPEG · HEIC · TIFF · WebP · GIF +51 – und leitet abgelegte Bilder zum passenden Werkzeug weiter.
+**Ablagezone.** Fast jedes Werkzeug beginnt gleich: „**Bilder auswählen oder hierher ziehen**“ – „oder ⌘V zum Einfügen“. Die Ablagezone auf **Start** nennt die wichtigsten Formate – PNG, JPEG, HEIC, TIFF, WebP, GIF +51 – und leitet abgelegte Bilder zum passenden Werkzeug weiter.
 
 ## Deine erste Bearbeitung: ein Foto komprimieren
 
@@ -47,6 +47,8 @@ Die KI-Werkzeuge (Upscale, Freistellen, Radierer, Anonymisieren, Wiederherstellu
 ## Automatisierung
 
 Mit Pro kann **Automatisierung** einen freigegebenen Ordner überwachen und bei neuen Dateien eine gespeicherte Pipeline-Voreinstellung ausführen. Unterstützte Werkzeuge und Voreinstellungen lassen sich außerdem über Kurzbefehle/App Intents oder AppleScript aufrufen. Unabhängig vom Einstieg gelten dieselben Pro- und Regionsregeln.
+
+**Aktivität** listet die letzten Läufe, nur auf deinem Mac gespeichert (bis zu 100), samt den Dateien, die fehlgeschlagen sind, und dem Grund. Ist **Symbol in der Menüleiste anzeigen** unter **Einstellungen → Allgemein** eingeschaltet, läuft OtterPix nach dem Schließen des Fensters über die Menüleiste weiter, und überwachte Ordner werden weiter verarbeitet; ist das Symbol ausgeblendet, beendet das Schließen des letzten Fensters OtterPix und stoppt die Ordnerautomatisierung.
 
 ## Kostenlos und Pro
 

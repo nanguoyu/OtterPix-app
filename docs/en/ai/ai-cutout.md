@@ -1,4 +1,4 @@
-**English** · [简体中文](../../zh-Hans/ai/ai-cutout.md) · [繁體中文](../../zh-Hant/ai/ai-cutout.md) · [Deutsch](../../de/ai/ai-cutout.md)
+**English** | [简体中文](../../zh-Hans/ai/ai-cutout.md) | [繁體中文](../../zh-Hant/ai/ai-cutout.md) | [Deutsch](../../de/ai/ai-cutout.md)
 
 ---
 
@@ -34,7 +34,7 @@ Image processing and AI inference stay on your Mac. Your images, generation prom
 
 | Tier | In the app's words |
 |---|---|
-| **Built-in** | "No download · uses macOS Vision Framework" — instant availability, good for clean subjects |
+| **Built-in** | "No download, uses the macOS Vision framework" — instant availability, good for clean subjects |
 | Lite | "Lite variant, ~170 MB combined." — a strong step up on tricky edges |
 | Flagship | "Flagship quality, ~795 MB." — built for the hardest cases: flyaway hair, fur, semi-transparent edges |
 

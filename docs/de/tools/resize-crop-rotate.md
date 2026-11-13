@@ -1,4 +1,4 @@
-[English](../../en/tools/resize-crop-rotate.md) · [简体中文](../../zh-Hans/tools/resize-crop-rotate.md) · [繁體中文](../../zh-Hant/tools/resize-crop-rotate.md) · **Deutsch**
+[English](../../en/tools/resize-crop-rotate.md) | [简体中文](../../zh-Hans/tools/resize-crop-rotate.md) | [繁體中文](../../zh-Hant/tools/resize-crop-rotate.md) | **Deutsch**
 
 ---
 

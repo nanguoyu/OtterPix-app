@@ -1,4 +1,4 @@
-[English](README.md) · [简体中文](README.zh-Hans.md) · **繁體中文** · [Deutsch](README.de.md)
+[English](README.md) | [简体中文](README.zh-Hans.md) | **繁體中文** | [Deutsch](README.de.md)
 
 ---
 
@@ -10,11 +10,11 @@
 
 **[在 Mac App Store 下載](https://apps.apple.com/app/id6772468615)**
 
-macOS 14+ · Apple 晶片 · 免費下載，Pro 為 App 內購買 · 18 種語言
+macOS 14+，Apple 晶片，免費下載，Pro 為 App 內購買，支援 18 種語言
 
 </div>
 
-![OtterPix「全部功能」頁面：上方是工具與 AI 卡片庫，底部停靠的「處理流程」列處於收合狀態，右側顯示「3 個步驟 · 6 張圖片」與「顯示流程」展開按鈕。](assets/zh-Hant/pipeline.webp)
+![OtterPix「全部功能」頁面：上方是工具與 AI 卡片庫，底部停靠的「處理流程」列處於收合狀態，右側顯示「3 個步驟、6 張圖片」與「顯示流程」展開按鈕。](assets/zh-Hant/pipeline.webp)
 
 ## OtterPix 是什麼
 
@@ -74,7 +74,7 @@ OtterPix 是一款透過 Mac App Store 發行的商業閉源 App——這個儲�
 | 回報錯誤 | [開一個 Issue](https://github.com/nanguoyu/OtterPix-app/issues/new/choose) |
 | 詢問「這要怎麼做…？」 | [Discussions → Q&A](https://github.com/nanguoyu/OtterPix-app/discussions/categories/q-a) |
 | 分享點子 | [Discussions → Ideas](https://github.com/nanguoyu/OtterPix-app/discussions/categories/ideas) |
-| 退款、管理訂閱 | 所有購買皆由 Apple 處理：[reportaproblem.apple.com](https://reportaproblem.apple.com) · [管理訂閱](https://apps.apple.com/account/subscriptions) |
+| 退款、管理訂閱 | 所有購買皆由 Apple 處理：[reportaproblem.apple.com](https://reportaproblem.apple.com)，[管理訂閱](https://apps.apple.com/account/subscriptions) |
 | 私人或敏感事項 | hello@otterpix.app |
 
 ## 文件
@@ -135,4 +135,4 @@ OtterPix 的 AI 功能建立在傑出的開源研究與模型之上：
 
 © 2026 OtterPix (nanguoyu)。OtterPix App 為專有軟體。本儲存庫中的文件與截圖可在註明出處的前提下分享。
 
-[隱私政策](https://otterpix.app/zh-Hant/privacy) · [服務條款](https://otterpix.app/zh-Hant/terms)
+[隱私政策](https://otterpix.app/zh-Hant/privacy) | [服務條款](https://otterpix.app/zh-Hant/terms)

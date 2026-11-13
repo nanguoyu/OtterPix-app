@@ -1,4 +1,4 @@
-[English](../en/faq.md) · **简体中文** · [繁體中文](../zh-Hant/faq.md) · [Deutsch](../de/faq.md)
+[English](../en/faq.md) | **简体中文** | [繁體中文](../zh-Hant/faq.md) | [Deutsch](../de/faq.md)
 
 ---
 
@@ -26,7 +26,7 @@ macOS 14（Sonoma）或更高版本，Apple 芯片 Mac（M1 或更新）。不�
 
 ### OtterPix 能读写哪些格式？
 
-读写：JPEG、PNG、TIFF、BMP、HEIC、WebP、AVIF——格式选择器里还有**其他格式**区，列出你的 Mac 能写出的更多小众格式。可读取的范围更广：主页拖放区标着 PNG · JPEG · HEIC · TIFF · WebP · GIF +51。PDF 可以用 [PDF 转图片](tools/pdf-and-qr.md)工具以任意 DPI 渲染为图片。
+读写：JPEG、PNG、TIFF、BMP、HEIC、WebP、AVIF——格式选择器里还有**其他格式**区，列出你的 Mac 能写出的更多小众格式。可读取的范围更广：主页拖放区标着 PNG、JPEG、HEIC、TIFF、WebP、GIF +51。PDF 可以用 [PDF 转图片](tools/pdf-and-qr.md)工具以任意 DPI 渲染为图片。
 
 ### 色彩配置文件和 EXIF 方向会保留吗？
 

@@ -1,4 +1,4 @@
-[English](../../en/ai/ai-eraser.md) · [简体中文](../../zh-Hans/ai/ai-eraser.md) · **繁體中文** · [Deutsch](../../de/ai/ai-eraser.md)
+[English](../../en/ai/ai-eraser.md) | [简体中文](../../zh-Hans/ai/ai-eraser.md) | **繁體中文** | [Deutsch](../../de/ai/ai-eraser.md)
 
 ---
 

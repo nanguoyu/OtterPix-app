@@ -1,4 +1,4 @@
-[English](../../en/ai/ai-cutout.md) · [简体中文](../../zh-Hans/ai/ai-cutout.md) · **繁體中文** · [Deutsch](../../de/ai/ai-cutout.md)
+[English](../../en/ai/ai-cutout.md) | [简体中文](../../zh-Hans/ai/ai-cutout.md) | **繁體中文** | [Deutsch](../../de/ai/ai-cutout.md)
 
 ---
 
@@ -34,7 +34,7 @@
 
 | 檔位 | App 內的描述 |
 |---|---|
-| **內建** | 「無需下載 · 使用 macOS Vision 框架」——即開即用，適合輪廓乾淨的主體 |
+| **內建** | 「無需下載，使用 macOS Vision 框架」——即開即用，適合輪廓乾淨的主體 |
 | 輕量 | 「輕量版本，約 170 MB。」——處理棘手邊緣時明顯升級 |
 | 旗艦 | 「旗艦畫質，約 795 MB。」——為最難的情境而生：飛散的髮絲、毛髮、半透明邊緣 |
 

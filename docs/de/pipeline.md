@@ -1,4 +1,4 @@
-[English](../en/pipeline.md) · [简体中文](../zh-Hans/pipeline.md) · [繁體中文](../zh-Hant/pipeline.md) · **Deutsch**
+[English](../en/pipeline.md) | [简体中文](../zh-Hans/pipeline.md) | [繁體中文](../zh-Hant/pipeline.md) | **Deutsch**
 
 ---
 
@@ -14,7 +14,7 @@ Die **Verarbeitungspipeline** verkettet mehrere Werkzeuge zu einem Workflow und 
 |---|---|
 | **Verfügbarkeit** | Kostenlos. Gratis-Plan: ein Pro-Schritt pro Pipeline, ein Bild, solange ein Pro-Schritt enthalten ist |
 | **Ausführung** | Auf deinem Mac – offline, nichts wird hochgeladen |
-| **Eingabe** | Beliebig viele Bilder (auch ein ganzer Ordner) |
+| **Eingabe** | Beliebig viele Bilder |
 | **Ausgabe** | Verarbeitete Kopien am Zielort deiner Wahl; Originale bleiben liegen |
 | **Ort** | **Alle Funktionen** – die Pipeline ist unten an der Galerie angedockt |
 
@@ -39,7 +39,7 @@ Das ist die vollständige Liste. KI-Radierer, AI Anonymisieren, KI-Wiederherstel
 ## Eine Pipeline bauen
 
 1. Klicke in der Seitenleiste auf **Alle Funktionen**. Die **Verarbeitungspipeline** ist unten angedockt – ein Klick auf ihre Kopfzeile klappt sie aus.
-2. Zieh deine Bilder oder einen ganzen Ordner auf den **Eingabe**-Knoten („Ablegen/Klicken“). Jedes Bild erscheint im Streifen unter der Kette, samt Zähler („6 Dateien“; eingeklappt fasst die Leiste zusammen: „3 Schritte · 6 Bilder“).
+2. Zieh deine Bilder auf den **Eingabe**-Knoten („Ablegen/Klicken“). Für einen ganzen Ordner öffnest du ihn im Finder, wählst seine Bilder aus und ziehst sie hinein, oder du legst den Ordner auf dem OtterPix-Symbol in der Menüleiste ab (die Bilder der obersten Ebene, bis zu 500). Jedes Bild erscheint im Streifen unter der Kette, samt Zähler („6 Dateien“; eingeklappt fasst die Leiste zusammen: „3 Schritte, 6 Bilder“).
 3. Füge Schritte hinzu: Klicke auf ein **+** zwischen den Knoten, oder zieh eine Galerie-Karte mit dem **Pipeline**-Abzeichen direkt nach unten in die Kette. Die leere Pipeline sagt es selbst: „Zieh ein Werkzeug aus der Galerie hierher oder tippe auf +, um einen Schritt hinzuzufügen.“
 4. Klicke auf einen Schritt, um seine Parameter zu setzen – dieselben Optionen wie im eigenständigen Werkzeug. Schritte lassen sich umsortieren (**Nach links** / **Nach rechts**), vorübergehend abschalten (**Deaktivieren**) oder entfernen (**Löschen**).
 5. Wähl am **Ausgabe**-Knoten **Ausgabeformat** und **Qualität** für den ganzen Stapel.
@@ -47,7 +47,7 @@ Das ist die vollständige Liste. KI-Radierer, AI Anonymisieren, KI-Wiederherstel
 
 ## Vorlagen
 
-Klicke auf **Als Vorlage speichern**, gib der Kette im Feld **Vorlagenname** einen Namen, und sie liegt unter **Vorlagen** bereit. Nächste Woche: **Vorlagen** → **Laden**, einen neuen Ordner auf den Eingabe-Knoten ziehen, **Pipeline ausführen**. So wird aus einer Fünf-Schritte-Routine ein Ein-Klick-Job.
+Klicke auf **Als Vorlage speichern**, gib der Kette im Feld **Vorlagenname** einen Namen, und sie liegt unter **Vorlagen** bereit. Nächste Woche: **Vorlagen** → **Laden**, die neuen Bilder auf den Eingabe-Knoten ziehen, **Pipeline ausführen**. So wird aus einer Fünf-Schritte-Routine ein Ein-Klick-Job.
 
 ## Stapelverhalten
 

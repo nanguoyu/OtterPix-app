@@ -1,4 +1,4 @@
-[English](../../en/tools/metadata.md) · [简体中文](../../zh-Hans/tools/metadata.md) · [繁體中文](../../zh-Hant/tools/metadata.md) · **Deutsch**
+[English](../../en/tools/metadata.md) | [简体中文](../../zh-Hans/tools/metadata.md) | [繁體中文](../../zh-Hant/tools/metadata.md) | **Deutsch**
 
 ---
 
@@ -26,13 +26,13 @@ Alles, was die Datei trägt, sauber gruppiert: Kamera (Hersteller, Modell, Objek
 
 ### Bearbeiten
 
-Einzelne Felder neu eintragen – Aufnahmedatum, Ersteller, Urheberrecht – oder den Schalter **GPS entfernen** umlegen, um nur den Standort zu löschen, während Kamera-, Datums- und Belichtungsfelder bleiben. Übernommen wird mit **Änderungen speichern …** (⌘S).
+Einzelne Felder neu eintragen – **Künstler**, **Urheberrecht**, **Beschreibung**, **Aufnahmedatum** – oder den Schalter **GPS entfernen** umlegen, um nur den Standort zu löschen, während Kamera-, Datums- und Belichtungsfelder bleiben. Übernommen wird mit **Änderungen speichern …** (⌘S).
 
 ### Löschen
 
 Metadaten im Ganzen entfernen, über die Wahl der **Voreinstellung** und dann **Löschen und speichern unter …**:
 
-- **Datenschutz** – „Entfernt GPS, Kamera-Identität, Objektiv und Ersteller. Behält Datum, Belichtung, Ausrichtung.“ Der richtige Standard vor dem Teilen: Das Foto sortiert sich weiter korrekt nach Datum und wird richtig herum angezeigt, verrät aber nicht mehr, wo und womit es aufgenommen wurde.
+- **Datenschutz** – „Entfernt GPS, Kamera-Identität, Objektiv und Ersteller. Behält Datum, Belichtung, Ausrichtung.“ Außerdem entfernt sie den Namen des Kamerabesitzers und die Seriennummer des Objektivs sowie die IPTC-Felder für Ersteller, Kontakt, Urheberrecht und Ort. Der richtige Standard vor dem Teilen: Das Foto sortiert sich weiter korrekt nach Datum und wird richtig herum angezeigt, verrät aber nicht mehr, wo, womit und von wem es aufgenommen wurde.
 - **Alle** – „Entfernt alle Metadaten. Übrig bleiben nur die Bilddaten.“
 
 ## GPS vor dem Teilen entfernen
@@ -50,7 +50,7 @@ Die EXIF-Daten eines Fotos können die exakten GPS-Koordinaten des Aufnahmeorts 
 
 ## Tipps und Grenzen
 
-- **Metadaten löschen rührt keine Pixel an.** Die Operation zielt auf die versteckten Textdatensätze, nicht aufs sichtbare Bild – und die bereinigte Fassung wird als neue Kopie gespeichert, du kannst beide jederzeit vergleichen.
+- **Metadaten löschen lässt das Bild, wie es ist.** Die Operation zielt auf die versteckten Datensätze, nicht aufs sichtbare Bild; verlustbehaftete Formate wie JPEG werden in hoher Qualität neu kodiert. Die bereinigte Fassung wird als neue Kopie gespeichert, du kannst beide jederzeit vergleichen.
 - **Ganze Ordner:** Füg einer [Pipeline](../pipeline.md) einen Schritt **Metadaten löschen** hinzu und bereinige einen Ordner in einem Lauf – auf Wunsch mit Skalieren und Wasserzeichen im selben Durchgang.
 - **Verlass dich nicht darauf, dass Plattformen für dich strippen.** Viele soziale Netzwerke verarbeiten Uploads neu und werfen die meisten Metadaten weg, aber die Details unterscheiden sich je Dienst und ändern sich über die Zeit. Wenn das Entfernen zählt, mach es zum bewussten Schritt.
 

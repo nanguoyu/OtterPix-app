@@ -1,4 +1,4 @@
-**English** · [简体中文](../../zh-Hans/ai/ai-restore.md) · [繁體中文](../../zh-Hant/ai/ai-restore.md) · [Deutsch](../../de/ai/ai-restore.md)
+**English** | [简体中文](../../zh-Hans/ai/ai-restore.md) | [繁體中文](../../zh-Hant/ai/ai-restore.md) | [Deutsch](../../de/ai/ai-restore.md)
 
 ---
 

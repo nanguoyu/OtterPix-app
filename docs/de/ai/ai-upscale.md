@@ -1,4 +1,4 @@
-[English](../../en/ai/ai-upscale.md) · [简体中文](../../zh-Hans/ai/ai-upscale.md) · [繁體中文](../../zh-Hant/ai/ai-upscale.md) · **Deutsch**
+[English](../../en/ai/ai-upscale.md) | [简体中文](../../zh-Hans/ai/ai-upscale.md) | [繁體中文](../../zh-Hant/ai/ai-upscale.md) | **Deutsch**
 
 ---
 
@@ -37,10 +37,10 @@ Vier Modi, jeder ein eigener kleiner Download. Das Menü beschreibt sie so, wie 
 
 | Modus | In den Worten der App |
 |---|---|
-| Alltagsfotos | „5 MB · schneller, gut für Alltagsfotos“ |
-| Höchste Qualität | „67 MB · höchste Qualität, größerer Download“ |
-| Anime / Illustration | „18 MB · für Anime / Illustrationen abgestimmt“ |
-| Anime-Videoframes | „2.5 MB · kleinstes Modell, für Anime-Videoframes“ |
+| Alltagsfotos | „5 MB, schneller, gut für Alltagsfotos“ |
+| Höchste Qualität | „67 MB, höchste Qualität, größerer Download“ |
+| Anime / Illustration | „18 MB, für Anime / Illustrationen abgestimmt“ |
+| Anime-Videoframes | „2,5 MB, kleinstes Modell, für Anime-Videoframes“ |
 
 Starte mit dem Alltags-Modus für gewöhnliche Aufnahmen; wechsle für Drucke auf den Modus mit der höchsten Qualität, und für Lineart, Flächenfarben und Frames aus Animationsmaterial auf die Anime-Modi. Dasselbe Foto mit einem anderen Modus erneut zu berechnen bleibt innerhalb derselben täglichen Gratis-Nutzung.
 

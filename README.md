@@ -1,4 +1,4 @@
-**English** · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md) · [Deutsch](README.de.md)
+**English** | [简体中文](README.zh-Hans.md) | [繁體中文](README.zh-Hant.md) | [Deutsch](README.de.md)
 
 ---
 
@@ -10,7 +10,7 @@
 
 **[Download on the Mac App Store](https://apps.apple.com/app/id6772468615)**
 
-macOS 14+ · Apple silicon · Free download, Pro via in-app purchase · 18 languages
+macOS 14+, Apple silicon, free download with Pro as an in-app purchase, 18 languages
 
 </div>
 
@@ -74,7 +74,7 @@ Closed source doesn't mean take-our-word-for-it: the app is sandboxed, ships no 
 | Report a bug | [Open an issue](https://github.com/nanguoyu/OtterPix-app/issues/new/choose) |
 | Ask "how do I…?" | [Discussions → Q&A](https://github.com/nanguoyu/OtterPix-app/discussions/categories/q-a) |
 | Share an idea | [Discussions → Ideas](https://github.com/nanguoyu/OtterPix-app/discussions/categories/ideas) |
-| Get a refund, manage a subscription | Apple handles all purchases: [reportaproblem.apple.com](https://reportaproblem.apple.com) · [manage subscriptions](https://apps.apple.com/account/subscriptions) |
+| Get a refund, manage a subscription | Apple handles all purchases: [reportaproblem.apple.com](https://reportaproblem.apple.com), [manage subscriptions](https://apps.apple.com/account/subscriptions) |
 | Raise something private or sensitive | hello@otterpix.app |
 
 ## Documentation
@@ -135,4 +135,4 @@ OtterPix's AI features build on outstanding open-source research and models:
 
 © 2026 OtterPix (nanguoyu). The OtterPix app is proprietary software. Documentation and screenshots in this repository may be shared with attribution.
 
-[Privacy](https://otterpix.app/en/privacy) · [Terms](https://otterpix.app/en/terms)
+[Privacy](https://otterpix.app/en/privacy) | [Terms](https://otterpix.app/en/terms)

@@ -1,6 +1,8 @@
 # Getting support for OtterPix
 
-中文用户：可直接用中文提问或报告问题。 · Deutschsprachige: Du kannst auch auf Deutsch schreiben.
+中文用户：可直接用中文提问或报告问题。
+
+Deutschsprachige: Du kannst auch auf Deutsch schreiben.
 
 Pick the row that matches your situation:
 

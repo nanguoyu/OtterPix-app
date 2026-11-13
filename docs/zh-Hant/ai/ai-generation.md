@@ -1,4 +1,4 @@
-[English](../../en/ai/ai-generation.md) · [简体中文](../../zh-Hans/ai/ai-generation.md) · **繁體中文** · [Deutsch](../../de/ai/ai-generation.md)
+[English](../../en/ai/ai-generation.md) | [简体中文](../../zh-Hans/ai/ai-generation.md) | **繁體中文** | [Deutsch](../../de/ai/ai-generation.md)
 
 ---
 

@@ -1,4 +1,4 @@
-**English** · [简体中文](../../zh-Hans/ai/ai-upscale.md) · [繁體中文](../../zh-Hant/ai/ai-upscale.md) · [Deutsch](../../de/ai/ai-upscale.md)
+**English** | [简体中文](../../zh-Hans/ai/ai-upscale.md) | [繁體中文](../../zh-Hant/ai/ai-upscale.md) | [Deutsch](../../de/ai/ai-upscale.md)
 
 ---
 
@@ -37,10 +37,10 @@ Four modes, each its own small download. The menu describes them the way the app
 
 | Mode | In the app's words |
 |---|---|
-| General photo | "5 MB · faster, best for everyday photos" |
-| Highest quality | "67 MB · highest quality, larger download" |
-| Anime / illustration | "18 MB · tuned for anime / illustration stills" |
-| Anime video frames | "2.5 MB · smallest, for anime video frames" |
+| General photo | "5 MB, faster, best for everyday photos" |
+| Highest quality | "67 MB, highest quality, larger download" |
+| Anime / illustration | "18 MB, tuned for anime / illustration stills" |
+| Anime video frames | "2.5 MB, smallest, for anime video frames" |
 
 Start with the general mode for everyday shots; switch to the highest-quality mode for prints, and the anime modes for line art, flat colors, and frames exported from animated footage. Re-running the same photo with a different mode stays within the same daily free use.
 

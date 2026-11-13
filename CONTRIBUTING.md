@@ -1,6 +1,8 @@
 # Contributing to OtterPix
 
-中文用户：Issue 与讨论都欢迎直接用中文。 · Deutschsprachige: Issues und Diskussionen gern auch auf Deutsch.
+中文用户：Issue 与讨论都欢迎直接用中文。
+
+Deutschsprachige: Issues und Diskussionen gern auch auf Deutsch.
 
 OtterPix is a closed-source Mac app, so contributing here looks a little different from a typical open-source project — **no code required**. The contributions that move the app forward are reports, corrections, and answers.
 

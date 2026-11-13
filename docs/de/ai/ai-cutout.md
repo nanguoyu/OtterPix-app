@@ -1,4 +1,4 @@
-[English](../../en/ai/ai-cutout.md) · [简体中文](../../zh-Hans/ai/ai-cutout.md) · [繁體中文](../../zh-Hant/ai/ai-cutout.md) · **Deutsch**
+[English](../../en/ai/ai-cutout.md) | [简体中文](../../zh-Hans/ai/ai-cutout.md) | [繁體中文](../../zh-Hant/ai/ai-cutout.md) | **Deutsch**
 
 ---
 
@@ -34,7 +34,7 @@ Bildverarbeitung und KI-Inferenz bleiben auf deinem Mac. Bilder, Generierungs-Pr
 
 | Stufe | Beschreibung |
 |---|---|
-| **Eingebaut** | „Kein Download · nutzt macOS Vision Framework“ – sofort verfügbar, gut für klare Motive |
+| **Eingebaut** | „Kein Download, nutzt das macOS Vision Framework“ – sofort verfügbar, gut für klare Motive |
 | Lite | Ladbare Variante, ca. 170 MB – ein deutlicher Sprung bei schwierigen Kanten |
 | Flaggschiff | Höchste Qualitätsstufe, ca. 795 MB – gebaut für die härtesten Fälle: fliegende Haare, Fell, halbtransparente Kanten |
 

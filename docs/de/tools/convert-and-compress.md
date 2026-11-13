@@ -1,4 +1,4 @@
-[English](../../en/tools/convert-and-compress.md) · [简体中文](../../zh-Hans/tools/convert-and-compress.md) · [繁體中文](../../zh-Hant/tools/convert-and-compress.md) · **Deutsch**
+[English](../../en/tools/convert-and-compress.md) | [简体中文](../../zh-Hans/tools/convert-and-compress.md) | [繁體中文](../../zh-Hant/tools/convert-and-compress.md) | **Deutsch**
 
 ---
 
@@ -33,7 +33,7 @@ Der Klassiker: iPhone-Fotos im `.heic`-Format, die ein Windows-PC, ein Upload-Fo
 ### Formate
 
 - **Schreiben:** JPEG, PNG, WebP, AVIF, HEIC, TIFF, BMP – plus die Sektion **Andere Formate** für alles Weitere, was dein Mac kodieren kann.
-- **Lesen:** deutlich mehr – die Ablagezone auf **Start** nennt PNG · JPEG · HEIC · TIFF · WebP · GIF +51; GIFs und die meisten anderen Formate funktionieren als Konvertierungs-*Eingabe* also problemlos.
+- **Lesen:** deutlich mehr – die Ablagezone auf **Start** nennt PNG, JPEG, HEIC, TIFF, WebP, GIF +51; GIFs und die meisten anderen Formate funktionieren als Konvertierungs-*Eingabe* also problemlos.
 - Die meisten Operationen erhalten Farbprofile und EXIF-Orientierung.
 
 ## Bilder komprimieren
@@ -41,7 +41,7 @@ Der Klassiker: iPhone-Fotos im `.heic`-Format, die ein Windows-PC, ein Upload-Fo
 1. Klicke auf **Komprimierung** und leg ein Foto ab – oder einen ganzen Stapel, der als Filmstreifen am unteren Rand erscheint.
 2. Wähl eine **Voreinstellung**: **Kleine Größe**, **Ausgewogen** oder **Hohe Qualität**. Sie sind von links nach rechts von der kleinsten Datei zur feinsten Qualität geordnet und passen sich jedem Bild an, statt eine fixe Zahl anzuwenden.
 3. Für einen exakten Wert wechselst du auf **Benutzerdefiniert** und ziehst den **Qualität**s-Regler.
-4. Prüf die Anzeige über der Vorschau: Originalgröße → neue Größe plus der Prozentwert „der Originalgröße“. Ist ein Bild schon so klein, wie es sinnvoll geht, sagt OtterPix das – „Bereits optimal · Original behalten“ – statt es aufzublähen.
+4. Prüf die Anzeige über der Vorschau: Originalgröße → neue Größe plus der Prozentwert „der Originalgröße“. Ist ein Bild schon so klein, wie es sinnvoll geht, sagt OtterPix das – „Bereits optimal, Original behalten“ – statt es aufzublähen.
 5. Klicke auf **Speichern** (⌘S) – oder bei einem Stapel auf **Alle verarbeiten** – und wähl, wohin die komprimierten Dateien kommen.
 
 ### Optionen
@@ -63,7 +63,7 @@ Der Klassiker: iPhone-Fotos im `.heic`-Format, die ein Windows-PC, ein Upload-Fo
 | Du siehst | Ursache | Lösung |
 |---|---|---|
 | „Qualitätseinstellung hat keine Wirkung auf …-Format“ | Das gewählte Ausgabeformat ist verlustfrei | Erwartet – wähl ein verlustbehaftetes Format (JPEG/WebP/HEIC/AVIF), wenn du einen Qualitätsregler willst |
-| „Bereits optimal · Original behalten“ | Neu komprimieren hätte die Datei vergrößert | Nichts zu tun – OtterPix hat das kleinere Original behalten |
+| „Bereits optimal, Original behalten“ | Neu komprimieren hätte die Datei vergrößert | Nichts zu tun – OtterPix hat das kleinere Original behalten |
 | Das Ergebnis ist größer als das Original | Sehr hohe Qualitätseinstellung auf einer bereits optimierten Datei | **Kleine Größe** wählen oder die **Benutzerdefiniert**-Qualität senken |
 | Transparente Flächen wurden weiß/schwarz | Das Ausgabeformat war JPEG | Stattdessen nach PNG, WebP oder AVIF konvertieren |
 | Weiterhin Probleme | — | [Issue eröffnen](https://github.com/nanguoyu/OtterPix-app/issues/new/choose) |

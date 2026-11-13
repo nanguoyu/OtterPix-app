@@ -1,4 +1,4 @@
-**English** · [简体中文](../zh-Hans/pipeline.md) · [繁體中文](../zh-Hant/pipeline.md) · [Deutsch](../de/pipeline.md)
+**English** | [简体中文](../zh-Hans/pipeline.md) | [繁體中文](../zh-Hant/pipeline.md) | [Deutsch](../de/pipeline.md)
 
 ---
 
@@ -14,7 +14,7 @@ The **Processing Pipeline** chains several tools into one workflow and runs it o
 |---|---|
 | **Availability** | Free. Free plan: one Pro step per pipeline, one image while a Pro step is present |
 | **Runs** | On your Mac — offline, nothing uploaded |
-| **Input** | Any number of images (drop a whole folder) |
+| **Input** | Any number of images |
 | **Output** | Processed copies in the destination you choose; originals stay in place |
 | **Where** | **All Features** — the pipeline is docked at the bottom of the gallery |
 
@@ -39,7 +39,7 @@ That's the complete list. AI Eraser, AI Anonymize, AI Restore, AI OCR, and AI Ge
 ## Build a pipeline
 
 1. Click **All Features** in the sidebar. The **Processing Pipeline** is docked at the bottom — click its header to expand it.
-2. Drag your images or a whole folder onto the **Input** node ("Drop or click"). Every image appears in the strip under the chain, and the bar counts them ("3 steps · 6 images").
+2. Drag your images onto the **Input** node ("Drop or click"). To take a whole folder, open it in Finder, select its images, and drag them in, or drop the folder on the OtterPix menu bar icon (its top-level images, up to 500). Every image appears in the strip under the chain, and the bar counts them ("3 steps, 6 images").
 3. Add steps: click a **+** between the nodes, or drag any gallery card bearing the **Pipeline** badge straight down into the chain. As the empty pipeline itself suggests: "Drag a tool down from the gallery, or click + between nodes".
 4. Click a step to set its parameters — the same options as the standalone tool. Steps can be reordered (**Move Left** / **Move Right**), temporarily disabled (**Disable**), or removed (**Delete**).
 5. On the **Output** node, choose the **Output Format** and **Quality** for the whole batch.
@@ -47,7 +47,7 @@ That's the complete list. AI Eraser, AI Anonymize, AI Restore, AI OCR, and AI Ge
 
 ## Presets
 
-Click **Save Preset**, give the chain a **Preset Name**, and it's stored under **Presets**. Next week: **Presets** → **Load**, drop a new folder on the Input node, **Run Pipeline**. Presets are how a five-step routine becomes a one-click job.
+Click **Save Preset**, give the chain a **Preset Name**, and it's stored under **Presets**. Next week: **Presets** → **Load**, drop the new images on the Input node, **Run Pipeline**. Presets are how a five-step routine becomes a one-click job.
 
 ## Batch behavior
 

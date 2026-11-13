@@ -1,4 +1,4 @@
-**English** · [简体中文](../../zh-Hans/tools/metadata.md) · [繁體中文](../../zh-Hant/tools/metadata.md) · [Deutsch](../../de/tools/metadata.md)
+**English** | [简体中文](../../zh-Hans/tools/metadata.md) | [繁體中文](../../zh-Hant/tools/metadata.md) | [Deutsch](../../de/tools/metadata.md)
 
 ---
 
@@ -26,13 +26,13 @@ Everything the file carries, grouped into tidy sections: camera (Make, Model, Le
 
 ### Edit
 
-Retype individual fields — capture date, creator, copyright — or flip the **Remove GPS** toggle to drop only the location while camera, date, and exposure fields stay. Commit with **Save Edits…** (⌘S).
+Retype individual fields — **Artist**, **Copyright**, **Description**, **Date Taken** — or flip the **Remove GPS** toggle to drop only the location while camera, date, and exposure fields stay. Commit with **Save Edits…** (⌘S).
 
 ### Clear
 
 Wipe metadata wholesale via the **Preset** choice, then **Clear & Save As…**:
 
-- **Privacy** — "Strips GPS, camera identity, lens, and creator. Keeps date, exposure, orientation." The right default before sharing: the photo still sorts correctly by date and displays right-side-up, but no longer says where it was taken or with what.
+- **Privacy** — "Strips GPS, camera identity, lens, and creator. Keeps date, exposure, orientation." It also removes the camera owner name and lens serial number, plus the IPTC creator, contact, copyright, and place fields. The right default before sharing: the photo still sorts correctly by date and displays right-side-up, but no longer says where it was taken, with what, or by whom.
 - **All** — "Removes every metadata field. The result is pure pixel data."
 
 ## How to remove GPS before sharing
@@ -50,7 +50,7 @@ A photo's EXIF can include the exact GPS coordinates of where it was taken — w
 
 ## Tips and limits
 
-- **Clearing metadata never touches pixels.** The operation targets the hidden text records, not the visible picture — and the cleaned version is saved as a new copy, so you can compare the two any time.
+- **Clearing metadata leaves the picture as it is.** The operation targets the hidden records, not the visible image; lossy formats such as JPEG are re-encoded at high quality. The cleaned version is saved as a new copy, so you can compare the two any time.
 - **Whole folders:** add a **Clear Metadata** step to a [Pipeline](../pipeline.md) and strip a folder in one run — resizing and watermarking in the same pass if you like.
 - **Don't rely on platforms to strip for you.** Many social networks re-process uploads and drop most metadata, but the details differ per service and change over time. If removal matters, make it an explicit step.
 

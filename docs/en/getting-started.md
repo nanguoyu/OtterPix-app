@@ -1,4 +1,4 @@
-**English** · [简体中文](../zh-Hans/getting-started.md) · [繁體中文](../zh-Hant/getting-started.md) · [Deutsch](../de/getting-started.md)
+**English** | [简体中文](../zh-Hans/getting-started.md) | [繁體中文](../zh-Hant/getting-started.md) | [Deutsch](../de/getting-started.md)
 
 ---
 
@@ -29,7 +29,7 @@ Everything you need to go from download to your first finished edit.
 - **Quick Actions** are your own shortcuts. In **Settings** you can pick which features appear — as the app puts it: "Choose which features appear as shortcuts in the sidebar and on Home."
 - **Settings** holds four tabs: **General**, **Export**, **AI** (model downloads and storage), and **About**.
 
-**Drop zone.** Almost every tool starts the same way: "**Select images or drag here**" — "or press ⌘V to paste". Home's drop zone lists the headline formats — PNG · JPEG · HEIC · TIFF · WebP · GIF +51 — and routes what you drop to the right tool.
+**Drop zone.** Almost every tool starts the same way: "**Select images or drag here**" — "or press ⌘V to paste". Home's drop zone lists the headline formats — PNG, JPEG, HEIC, TIFF, WebP, GIF +51 — and routes what you drop to the right tool.
 
 ## Your first edit: compress a photo
 
@@ -47,6 +47,8 @@ The AI tools (Upscale, Cutout, Eraser, Anonymize, Restore, OCR, Generation) down
 ## Automation
 
 With Pro, **Automation** can watch an authorized folder and run a saved Pipeline preset whenever new files arrive. Supported tools and saved presets can also be invoked through Shortcuts/App Intents or AppleScript. The same Pro and regional availability rules apply whichever entry point you use.
+
+**Activity** lists the recent runs, kept only on your Mac (up to 100), with the files that failed and why. With **Show menu bar icon** turned on in **Settings → General**, closing the window keeps OtterPix running from the menu bar, so watched folders keep working; with the icon hidden, closing the last window quits OtterPix and stops folder automation.
 
 ## Free and Pro
 

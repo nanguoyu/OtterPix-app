@@ -1,4 +1,4 @@
-[English](../../en/tools/watermark.md) · [简体中文](../../zh-Hans/tools/watermark.md) · **繁體中文** · [Deutsch](../../de/tools/watermark.md)
+[English](../../en/tools/watermark.md) | [简体中文](../../zh-Hans/tools/watermark.md) | **繁體中文** | [Deutsch](../../de/tools/watermark.md)
 
 ---
 

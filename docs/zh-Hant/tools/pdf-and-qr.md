@@ -1,4 +1,4 @@
-[English](../../en/tools/pdf-and-qr.md) · [简体中文](../../zh-Hans/tools/pdf-and-qr.md) · **繁體中文** · [Deutsch](../../de/tools/pdf-and-qr.md)
+[English](../../en/tools/pdf-and-qr.md) | [简体中文](../../zh-Hans/tools/pdf-and-qr.md) | **繁體中文** | [Deutsch](../../de/tools/pdf-and-qr.md)
 
 ---
 
