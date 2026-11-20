@@ -55,7 +55,7 @@ Es gibt kein festes Bildlimit – die Pipeline ist für ganze Ordner gebaut. All
 
 ## Transparenz-Tipp
 
-**AI Freistellen** erzeugt Transparenz, und die App warnt vor dem einen Weg, sie zu verlieren: Der Schritt liefert RGBA-Ausgabe, und alle nachfolgenden Schritte müssen den Alphakanal erhalten – PNG/WebP/AVIF statt JPEG, und kein AI Upscale danach. Also: Stell das **Ausgabeformat** auf PNG (oder WebP/AVIF) und setz den Schritt **AI Freistellen** ans Ende der Kette.
+**AI Freistellen** erzeugt Transparenz, und jeder Schritt danach erhält sie, auch AI Upscale. Verloren geht sie nur bei einer JPEG-Ausgabe, also stell das **Ausgabeformat** auf PNG (oder WebP/AVIF).
 
 ## Grenzen im Gratis-Plan
 
@@ -71,7 +71,7 @@ Es gibt kein festes Bildlimit – die Pipeline ist für ganze Ordner gebaut. All
 | Ein AI-Schritt meldet, dass das Modell nicht geladen ist | Das Modell des Schritts wurde noch nicht heruntergeladen | Öffne das zugehörige Werkzeug (AI Upscale / AI Freistellen) und lade das Modell dort, oder nutze **Einstellungen → AI** |
 | „Gratis: ein Bild pro Pipeline mit Pro-Schritt.“ | Gratis-Plan-Grenze, solange ein Pro-Schritt in der Kette ist | Ein Bild pro Lauf verarbeiten, den Pro-Schritt entfernen oder upgraden |
 | Ein Wasserzeichen ist abgeschnitten oder unscharf | Der Wasserzeichen-Schritt steht vor einem Zuschneiden- oder Größe-ändern-Schritt | Wasserzeichen hinter Zuschneiden/Größe ändern schieben – die App warnt genau in diesem Fall („Wasserzeichen vor Größenänderung kann unscharf werden“) |
-| Das Ergebnis hat seine Transparenz verloren | Ein JPEG-Ausgabeformat oder ein AI-Upscale-Schritt nach AI Freistellen hat sie entfernt | Als PNG/WebP/AVIF ausgeben und AI Freistellen ans Ende der Kette setzen |
+| Das Ergebnis hat seine Transparenz verloren | Das **Ausgabeformat** ist JPEG, das keine Transparenz kennt | Als PNG/WebP/AVIF ausgeben |
 | Weiterhin Probleme | — | [Issue eröffnen](https://github.com/nanguoyu/OtterPix-app/issues/new/choose) |
 
 ## Siehe auch

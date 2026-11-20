@@ -53,6 +53,7 @@ The geometry trio: **Resize** scales images by percentage or exact dimensions, *
 - **Resize cannot invent detail.** Scaling *up* with Resize simply interpolates pixels. To enlarge a photo and add plausible detail, use [AI Upscale](../ai/ai-upscale.md) instead.
 - **Order matters in a pipeline.** Put **Crop** and **Resize** before **Watermark** — the app warns if a watermark step sits before them, because it may end up cropped off or blurred.
 - **Lock the ratio unless you mean it.** An unlocked resize to arbitrary Width × Height stretches the image. The lock icon shows the current state at a glance.
+- **Lossy formats are saved at 95 percent quality.** Resize, Crop, and Rotation save JPEG, HEIC, and other lossy formats at a fixed 95 percent, independent of the default quality in Settings.
 
 ## Troubleshooting
 

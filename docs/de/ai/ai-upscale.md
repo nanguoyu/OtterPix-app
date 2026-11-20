@@ -49,7 +49,7 @@ Starte mit dem Alltags-Modus für gewöhnliche Aufnahmen; wechsle für Drucke au
 - **Die Badges sind der Beleg.** Die Pixelmaß-Badges über den Bereichen zeigen exakte Ein- und Ausgabegrößen – praktisch für die Druckrechnung (bei ~300 DPI wächst die druckbare Breite eines 1.000 px breiten Bilds durch das 4×-Upscale von rund 8,5 cm auf etwa 34 cm).
 - **Große Bilder dauern länger.** Große Eingaben werden in Kacheln verarbeitet, und die Fortschrittsanzeige zählt sie mit; alles läuft weiterhin lokal.
 - **Fotografisches glänzt, winziger Text nicht.** Hochskalieren ist am stärksten bei Fell, Haut, Stoff, Landschaften. Kleiner oder bereits unleserlicher Text wird nicht lesbar.
-- **Transparenz:** Hochskalieren entfernt den Alphakanal – brauchst du ein transparentes Ergebnis, lass [AI Freistellen](ai-cutout.md) *nach* dem Hochskalieren laufen.
+- **Transparenz bleibt erhalten:** Ein transparentes Bild bleibt transparent, der Alphakanal wird auf die neue Größe skaliert.
 
 ## Fehlerbehebung
 

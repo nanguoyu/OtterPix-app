@@ -53,6 +53,7 @@ Das Geometrie-Trio: **Größe ändern** skaliert Bilder prozentual oder auf exak
 - **Größe ändern erfindet keine Details.** *Hochskalieren* mit diesem Werkzeug interpoliert nur Pixel. Um ein Foto zu vergrößern und dabei plausible Details zu ergänzen, nimm stattdessen [AI Upscale](../ai/ai-upscale.md).
 - **In der Pipeline zählt die Reihenfolge.** Setz **Zuschneiden** und **Größe ändern** vor **Wasserzeichen** – die App warnt, wenn ein Wasserzeichen-Schritt davor steht, weil es sonst abgeschnitten oder unscharf werden kann.
 - **Sperr das Seitenverhältnis, außer du willst es anders.** Ein entsperrtes Skalieren auf beliebige Breite × Höhe verzerrt das Bild. Das Kettenglied-Symbol zeigt den aktuellen Zustand auf einen Blick.
+- **Verlustbehaftete Formate werden mit 95 Prozent Qualität gespeichert.** Größe ändern, Zuschneiden und Drehung speichern JPEG, HEIC und andere verlustbehaftete Formate fest mit 95 Prozent, unabhängig von der Standardqualität in den Einstellungen.
 
 ## Fehlerbehebung
 

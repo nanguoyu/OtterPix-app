@@ -44,7 +44,7 @@ Dasselbe Foto mit einer anderen Stufe erneut zu berechnen bleibt innerhalb derse
 
 - **Die Ausgabe behält die volle Auflösung.** Die Freistellung wird in den Pixelmaßen der Quelle gespeichert, mit echtem Alphakanal – sie fügt sich sauber in jedes Design-Werkzeug, jede Präsentation, jeden Shop ein.
 - **Als PNG speichern.** JPEG kennt keine Transparenz; das natürliche Ausgabeformat des Werkzeugs ist PNG.
-- **In der Pipeline zählt die Reihenfolge.** Der Schritt **AI Freistellen** erzeugt RGBA-Ausgabe, und alle nachfolgenden Schritte müssen den Alphakanal erhalten – die [Pipeline](../pipeline.md) weist im Schritt selbst darauf hin. Stell den Ausgabe-Knoten auf PNG/WebP/AVIF und setz den Schritt ans Ende der Kette – ein JPEG-Ausgabeformat oder ein späterer AI-Upscale-Schritt entfernt die Transparenz.
+- **In der Pipeline ein Format mit Transparenz ausgeben.** Stell den Ausgabe-Knoten der [Pipeline](../pipeline.md) auf PNG, WebP oder AVIF. Jeder Schritt erhält die Transparenz, auch AI Upscale; nur eine JPEG-Ausgabe entfernt sie.
 - **Ein klares Motiv funktioniert am besten.** Das Modell sucht das dominante Motiv; unruhige Szenen mit mehreren gleichwertigen Motiven können seine Aufmerksamkeit teilen.
 
 ## Fehlerbehebung

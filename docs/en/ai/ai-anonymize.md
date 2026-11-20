@@ -38,7 +38,7 @@ Image processing and AI inference stay on your Mac. Your images, generation prom
 | **Blur** | Soft and photographic | **Strength**, **Radius** |
 | **Mosaic** | Classic square pixelation | **Strength**, **Radius** |
 | **Hex Mosaic** | Pixelation in hexagonal cells | **Strength**, **Radius** |
-| **Solid Color** | A flat fill in the color you pick | **Color**, **Opacity**, **Radius** |
+| **Solid Color** | A flat fill in the color you pick, fully opaque by default | **Color**, **Opacity**, **Radius** |
 | **Rainbow Blocks** | A block of rainbow-colored cells over each detection | **Radius** |
 
 **Blur** keeps the image calm; the mosaic styles and **Solid Color** are unmistakably deliberate, which suits license plates and anything document-like; **Rainbow Blocks** is the playful option. Switching styles reuses the detections you already have, so your targets and exempted boxes stay as they are. Whichever you pick, make sure the person or plate is genuinely unrecognizable — adjustments recompose instantly, so tuning costs nothing.
@@ -57,6 +57,7 @@ Class chips set the rule; clicking numbered boxes makes the exceptions. "Everyon
 - **The style covers the whole detection.** A covered person includes their face; a covered vehicle includes its plate.
 - **Review before publishing.** Detection is a strong first pass, not a verdict — very small, cut-off, or heavily obscured subjects can slip through. For a stray leftover, [AI Eraser](ai-eraser.md) is the companion tool: paint over it and remove it entirely.
 - **Stills only.** AI Anonymize works on images, not video. For a clip, export the frames you plan to publish and anonymize those.
+- **Saved images leave identifying details behind.** Saving applies the [Metadata](../tools/metadata.md) tool's **Privacy** preset, so the location, camera identity, and creator do not travel with the image.
 - **The readout confirms coverage** — "3 region(s) obscured" tells you exactly how many detections were affected.
 
 ## Troubleshooting

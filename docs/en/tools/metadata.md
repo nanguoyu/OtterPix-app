@@ -32,7 +32,7 @@ Retype individual fields — **Artist**, **Copyright**, **Description**, **Date 
 
 Wipe metadata wholesale via the **Preset** choice, then **Clear & Save As…**:
 
-- **Privacy** — "Strips GPS, camera identity, lens, and creator. Keeps date, exposure, orientation." It also removes the camera owner name and lens serial number, plus the IPTC creator, contact, copyright, and place fields. The right default before sharing: the photo still sorts correctly by date and displays right-side-up, but no longer says where it was taken, with what, or by whom.
+- **Privacy** — "Strips GPS, camera identity, lens, and creator. Keeps date, exposure, orientation." It also removes the camera owner name, lens serial number, the IPTC creator, contact, copyright, and place fields, the maker notes cameras write, and the author, copyright, and comment text stored in PNG files. The right default before sharing: the photo still sorts correctly by date and displays right-side-up, but no longer says where it was taken, with what, or by whom.
 - **All** — "Removes every metadata field. The result is pure pixel data."
 
 ## How to remove GPS before sharing

@@ -49,6 +49,7 @@ Sechs eingebaute Farbfelder decken die üblichen Fälle ab; der Farbwähler-Chip
 - **Kontrast entscheidet über Lesbarkeit.** Justier die Deckkraft pro Foto – unruhige Fotos vertragen kräftigere Zeichen als ruhige, und die Live-Vorschau zeigt das Ergebnis sofort.
 - **Im Stapel über die Pipeline.** Für wiederkehrende Abläufe füg einer [Pipeline](../pipeline.md) einen **Wasserzeichen**-Schritt hinzu und verarbeite ganze Ordner – mit Skalieren und Formatkonvertierung im selben Lauf. Setz den Wasserzeichen-Schritt *hinter* Zuschneiden und Größe ändern; die App warnt, wenn er davor steht („Wasserzeichen vor Größenänderung kann unscharf werden“).
 - **Nur Textwasserzeichen.** Das Werkzeug rendert Text; Bild-/Logodateien stempelt es nicht auf.
+- **Verlustbehaftete Formate werden mit 95 Prozent Qualität gespeichert,** unabhängig von der Standardqualität in den Einstellungen.
 
 ## Fehlerbehebung
 

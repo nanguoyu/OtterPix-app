@@ -6,6 +6,15 @@
 
 Versionshinweise, wie im [Mac App Store](https://apps.apple.com/app/id6772468615) veröffentlicht.
 
+## 1.3.2 (November 2026)
+
+- Fotos behalten Aufnahmedatum, Kameradaten, Ort und Urheberrecht, wenn du sie komprimierst, konvertierst, skalierst, zuschneidest, drehst oder mit einem Wasserzeichen versiehst.
+- „AI Bilderzeugung“: Das standardmäßige 8-Bit-Modell wird jetzt vollständig installiert, und unterbrochene Downloads laufen dort weiter, wo sie unterbrochen wurden.
+- „AI Anonymisieren“ verdeckt Inhalte auch in sehr großen Fotos genauso zuverlässig, „Volltonfarbe“ ist standardmäßig vollständig deckend, und Objektnamen erscheinen in deiner Sprache. Gespeicherte Bilder enthalten keine Standortdaten und keine identifizierenden Angaben.
+- „AI Texterkennung“ behält bereits gelesene Seiten, wenn du stoppst oder eine Seite fehlschlägt, liest gedrehte PDF-Seiten vollständig und weist auf passwortgeschützte PDFs hin.
+- Die „Ordner-Automatisierung“ verarbeitet Dateien nach einem vorübergehenden Problem erneut, stoppt beim Pausieren nach der aktuellen Datei und macht weiter, sobald ein externes Laufwerk wieder angeschlossen ist. Kurzbefehle und AppleScript melden Fehler verständlicher, und AppleScript erhält den Befehl „stop“.
+- Bilder sind nach dem Drehen, Zuschneiden und Konvertieren richtig ausgerichtet und haben exakt die richtige Größe, „AI Upscale“ und „AI Radierer“ erhalten die Transparenz, und für zu große Bilder gibt es eine klare Meldung.
+
 ## 1.3.1 (September 2026)
 
 - „AI Anonymisieren“ bietet drei neue Stile: Hex-Mosaik, Volltonfarbe (mit frei wählbarer Farbe und Deckkraft) und Regenbogenblöcke.

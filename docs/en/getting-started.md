@@ -50,6 +50,8 @@ With Pro, **Automation** can watch an authorized folder and run a saved Pipeline
 
 **Activity** lists the recent runs, kept only on your Mac (up to 100), with the files that failed and why. With **Show menu bar icon** turned on in **Settings → General**, closing the window keeps OtterPix running from the menu bar, so watched folders keep working; with the icon hidden, closing the last window quits OtterPix and stops folder automation.
 
+When a file fails for a reason outside the image itself, such as a missing model or an output folder that cannot be written, the rule shows **Retry needed**, and **Check for New Images** tries those files again. A rule on an external drive picks up again when the drive is reconnected.
+
 ## Free and Pro
 
 | | What you get |

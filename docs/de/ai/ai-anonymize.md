@@ -38,7 +38,7 @@ Bildverarbeitung und AI-Inferenz bleiben auf deinem Mac. Bilder, Generierungs-Pr
 | **Verwischen** | Weich und fotografisch | **Stärke**, **Radius** |
 | **Mosaik** | Klassische quadratische Verpixelung | **Stärke**, **Radius** |
 | **Hex-Mosaik** | Verpixelung in sechseckigen Zellen | **Stärke**, **Radius** |
-| **Volltonfarbe** | Eine flächige Füllung in der gewählten Farbe | **Farbe**, **Deckkraft**, **Radius** |
+| **Volltonfarbe** | Eine flächige Füllung in der gewählten Farbe, standardmäßig vollständig deckend | **Farbe**, **Deckkraft**, **Radius** |
 | **Regenbogenblöcke** | Ein Block aus regenbogenfarbenen Zellen über jeder Erkennung | **Radius** |
 
 **Verwischen** hält das Bild ruhig; die Mosaik-Stile und **Volltonfarbe** sind unverkennbar absichtlich – das passt zu Kennzeichen und allem Dokumentartigen; **Regenbogenblöcke** ist die verspielte Variante. Ein Stilwechsel nutzt die vorhandenen Erkennungen weiter, deine Ziele und ausgenommenen Felder bleiben also erhalten. Wofür du dich auch entscheidest: Sorg dafür, dass Person oder Kennzeichen wirklich nicht mehr erkennbar sind – Anpassungen bauen sofort neu auf, Feintuning kostet also nichts.
@@ -57,6 +57,7 @@ Klassen-Chips setzen die Regel; Klicks auf nummerierte Felder machen die Ausnahm
 - **Der Stil deckt die ganze Erkennung ab.** Eine verdeckte Person schließt ihr Gesicht ein; ein verdecktes Fahrzeug sein Kennzeichen.
 - **Vor dem Veröffentlichen prüfen.** Die Erkennung ist ein starker erster Durchgang, kein Urteil – sehr kleine, angeschnittene oder stark verdeckte Motive können durchrutschen. Für einen übrig gebliebenen Rest ist der [AI Radierer](ai-eraser.md) das Partnerwerkzeug: übermalen und ganz entfernen.
 - **Nur Standbilder.** AI Anonymisieren arbeitet auf Bildern, nicht auf Video. Für einen Clip exportierst du die Frames, die du veröffentlichen willst, und anonymisierst diese.
+- **Gespeicherte Bilder enthalten keine identifizierenden Angaben.** Beim Speichern wird die Voreinstellung **Datenschutz** des [Metadaten](../tools/metadata.md)-Werkzeugs angewendet, Ort, Kamera-Identität und Ersteller reisen also nicht mit.
 - **Die Anzeige bestätigt die Abdeckung** – „3 Bereich(e) verdeckt“ nennt exakt, wie viele Erkennungen betroffen waren.
 
 ## Fehlerbehebung

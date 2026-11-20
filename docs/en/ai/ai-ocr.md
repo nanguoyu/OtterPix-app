@@ -58,6 +58,7 @@ The tool's settings hold the **Model** row (as the app puts it: "On-device docum
 - **Tables and formulas come out as Markdown**, ready to paste into notes apps, wikis, or editors.
 - **The app checks its own work.** If some pages come back suspiciously empty, a warning banner appears: "Some pages came out nearly blank — they may suit the other mode." — with a one-click re-run in that mode.
 - **Long pages can hit the output cap.** If you see "Output reached the token limit — raise it in Settings for more.", increase **Max tokens** in the tool's settings and re-run.
+- **Stopping keeps what is done.** If you stop a run or a page fails, the pages already read stay, under the banner "Stopped early. Showing the text recognized so far."
 
 ## Troubleshooting
 
@@ -67,6 +68,7 @@ The tool's settings hold the **Model** row (as the app puts it: "On-device docum
 | "Some pages came out nearly blank — they may suit the other mode." | The chosen mode struggled with those pages' layout | Use the banner's re-run button to try the other mode on the same document |
 | Output cuts off mid-document | The per-page token cap was reached | Raise **Max tokens** in the tool's settings, then **Recognize** again |
 | Garbled output from a photo | The input isn't a document — it's a scene photo or meme | Use document-style input; that's what the tool is built for |
+| "This PDF is password-protected. Remove the password and try again." | The PDF is encrypted | Save a copy without the password, then drop that in |
 | Still stuck | — | [Open an issue](https://github.com/nanguoyu/OtterPix-app/issues/new/choose) |
 
 ## See also

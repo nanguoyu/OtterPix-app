@@ -44,7 +44,7 @@ Re-running the same photo on another tier stays within the same daily free use �
 
 - **The output keeps full resolution.** The cutout is saved at the source image's pixel dimensions with a real alpha channel — it composites cleanly in any design tool, deck, or storefront.
 - **Save as PNG.** JPEG has no transparency; the tool's natural output is PNG.
-- **Pipeline ordering matters.** In a [Pipeline](../pipeline.md), the AI Cutout step warns: "Produces RGBA output. Subsequent steps must preserve alpha (PNG/WebP/AVIF, not JPEG; not AI Upscale)." Set the Output node to PNG/WebP/AVIF and place the AI Cutout step late in the chain — a JPEG output or a later AI Upscale step flattens the transparency.
+- **In a Pipeline, output a format with transparency.** Set the Output node of the [Pipeline](../pipeline.md) to PNG, WebP, or AVIF. Every step keeps the transparency, AI Upscale included; only a JPEG output flattens it.
 - **One clear subject works best.** The model finds the salient subject; busy scenes with several equal subjects can split its attention.
 
 ## Troubleshooting

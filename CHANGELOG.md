@@ -6,6 +6,15 @@
 
 Release notes as published on the [Mac App Store](https://apps.apple.com/app/id6772468615).
 
+## 1.3.2 (November 2026)
+
+- Photos keep their capture date, camera details, location, and copyright when you compress, convert, resize, crop, rotate, or watermark them.
+- AI Generation: the default 8-bit model now installs completely, and interrupted downloads continue where they stopped.
+- AI Anonymize hides content just as well on very large photos, Solid Color is fully opaque by default, and object names appear in your language. Saved images leave out location and identifying details.
+- AI OCR keeps the pages it has already read when you stop it or a page fails, reads rotated PDF pages in full, and tells you when a PDF is password-protected.
+- Folder Automation retries files after a temporary problem, stops after the current file when paused, and picks up again when an external drive is reconnected. Shortcuts and AppleScript report clearer errors, and AppleScript gains a stop command.
+- Images come out upright and exactly sized after rotating, cropping, and converting, transparency survives AI Upscale and AI Eraser, and images too large to process get a clear message.
+
 ## 1.3.1 (September 2026)
 
 - AI Anonymize adds three styles: Hex Mosaic, Solid Color (with your own color and opacity), and Rainbow Blocks.

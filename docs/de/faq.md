@@ -30,7 +30,7 @@ Lesen und Schreiben: JPEG, PNG, TIFF, BMP, HEIC, WebP, AVIF – dazu eine Sektio
 
 ### Bleiben Farbprofile und die EXIF-Orientierung erhalten?
 
-Die meisten Operationen erhalten Farbprofile und EXIF-Orientierung. Metadaten entfernt nur, was genau dafür gebaut ist: die Löschen-Funktion des [Metadaten](tools/metadata.md)-Werkzeugs und der Pipeline-Schritt **Metadaten löschen**.
+Ja. Jedes exportierte Bild behält Aufnahmedatum, Kameradaten, Ort, Urheberrecht und Farbprofil des Originals, egal ob es aus einem Basiswerkzeug, einem AI-Werkzeug, der Pipeline, der Ordnerautomatisierung, Kurzbefehlen oder AppleScript kommt. Die Ausrichtung des Fotos wird direkt auf die Pixel angewendet, das Ergebnis steht also überall richtig herum. WebP- und AVIF-Dateien enthalten keine Metadaten. Metadaten entfernt nur, was genau dafür gebaut ist: die Löschen-Funktion des [Metadaten](tools/metadata.md)-Werkzeugs, der Pipeline-Schritt **Metadaten löschen** und [AI Anonymisieren](ai/ai-anonymize.md), das ohne Standort und identifizierende Angaben speichert.
 
 ### Verändert OtterPix meine Originaldateien?
 

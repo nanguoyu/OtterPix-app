@@ -32,7 +32,7 @@ Einzelne Felder neu eintragen – **Künstler**, **Urheberrecht**, **Beschreibun
 
 Metadaten im Ganzen entfernen, über die Wahl der **Voreinstellung** und dann **Löschen und speichern unter …**:
 
-- **Datenschutz** – „Entfernt GPS, Kamera-Identität, Objektiv und Ersteller. Behält Datum, Belichtung, Ausrichtung.“ Außerdem entfernt sie den Namen des Kamerabesitzers und die Seriennummer des Objektivs sowie die IPTC-Felder für Ersteller, Kontakt, Urheberrecht und Ort. Der richtige Standard vor dem Teilen: Das Foto sortiert sich weiter korrekt nach Datum und wird richtig herum angezeigt, verrät aber nicht mehr, wo, womit und von wem es aufgenommen wurde.
+- **Datenschutz** – „Entfernt GPS, Kamera-Identität, Objektiv und Ersteller. Behält Datum, Belichtung, Ausrichtung.“ Außerdem entfernt sie den Namen des Kamerabesitzers, die Seriennummer des Objektivs, die IPTC-Felder für Ersteller, Kontakt, Urheberrecht und Ort, die Herstellerdaten der Kamera (MakerNote) sowie Autor-, Urheberrechts- und Kommentartext in PNG-Dateien. Der richtige Standard vor dem Teilen: Das Foto sortiert sich weiter korrekt nach Datum und wird richtig herum angezeigt, verrät aber nicht mehr, wo, womit und von wem es aufgenommen wurde.
 - **Alle** – „Entfernt alle Metadaten. Übrig bleiben nur die Bilddaten.“
 
 ## GPS vor dem Teilen entfernen

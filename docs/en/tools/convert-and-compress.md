@@ -34,7 +34,8 @@ The classic case: iPhone photos saved as `.heic` that a Windows PC, an upload fo
 
 - **Write:** JPEG, PNG, WebP, AVIF, HEIC, TIFF, BMP — plus the **Other Formats** section for everything else your Mac can encode.
 - **Read:** far more — the Home drop zone advertises PNG, JPEG, HEIC, TIFF, WebP, GIF +51, so GIFs and most anything else open fine as conversion *input*.
-- Most operations preserve color profiles and EXIF orientation.
+- Exports keep the source's capture date, camera details, location, copyright, and color profile, and come out upright. WebP and AVIF carry no metadata.
+- From an animated GIF or a multi-page file such as a PDF, only the first frame or page is used. To convert every page of a PDF, use [PDF to Image](pdf-and-qr.md).
 
 ## Compress images
 

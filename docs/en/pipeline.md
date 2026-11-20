@@ -55,7 +55,7 @@ There is no fixed image limit — the pipeline is built for whole folders. Every
 
 ## Transparency tip
 
-**AI Cutout** produces transparency, and the app warns about the one way to lose it — in the step's own words: "Produces RGBA output. Subsequent steps must preserve alpha (PNG/WebP/AVIF, not JPEG; not AI Upscale)." So: set the **Output Format** to PNG (or WebP/AVIF), and place the AI Cutout step late in the chain.
+**AI Cutout** produces transparency, and every step after it keeps it, AI Upscale included. The one way to lose it is a JPEG output, so set the **Output Format** to PNG (or WebP/AVIF).
 
 ## Free-plan limits
 
@@ -71,7 +71,7 @@ There is no fixed image limit — the pipeline is built for whole folders. Every
 | An AI step shows "Model not downloaded" | The step's model hasn't been fetched yet | Open the tool it refers to (AI Upscale / AI Cutout) and download the model there, or use **Settings → AI** |
 | "Free plan: one image when a Pro step is used." | Free-plan cap while a Pro step is in the chain | Run one image at a time, remove the Pro step, or upgrade |
 | A watermark comes out cropped or blurry | The Watermark step sits before a Crop or Resize step | Move Watermark after Crop/Resize — the app shows a warning in exactly this case |
-| Result lost its transparency | A JPEG output or an AI Upscale step after AI Cutout flattened it | Output as PNG/WebP/AVIF and keep AI Cutout late in the chain |
+| Result lost its transparency | The **Output Format** is JPEG, which has no transparency | Output as PNG/WebP/AVIF |
 | Still stuck | — | [Open an issue](https://github.com/nanguoyu/OtterPix-app/issues/new/choose) |
 
 ## See also

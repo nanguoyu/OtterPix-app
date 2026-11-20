@@ -50,6 +50,8 @@ Mit Pro kann **Automatisierung** einen freigegebenen Ordner überwachen und bei 
 
 **Aktivität** listet die letzten Läufe, nur auf deinem Mac gespeichert (bis zu 100), samt den Dateien, die fehlgeschlagen sind, und dem Grund. Ist **Symbol in der Menüleiste anzeigen** unter **Einstellungen → Allgemein** eingeschaltet, läuft OtterPix nach dem Schließen des Fensters über die Menüleiste weiter, und überwachte Ordner werden weiter verarbeitet; ist das Symbol ausgeblendet, beendet das Schließen des letzten Fensters OtterPix und stoppt die Ordnerautomatisierung.
 
+Scheitert eine Datei aus einem Grund außerhalb des Bildes, etwa weil ein Modell fehlt oder der Ausgabeordner nicht beschreibbar ist, zeigt die Regel **Erneuter Versuch nötig**, und **Nach neuen Bildern suchen** verarbeitet diese Dateien erneut. Eine Regel auf einem externen Laufwerk macht weiter, sobald das Laufwerk wieder angeschlossen ist.
+
 ## Kostenlos und Pro
 
 | | Enthalten |

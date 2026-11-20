@@ -49,7 +49,7 @@ Start with the general mode for everyday shots; switch to the highest-quality mo
 - **The badges are the receipt.** The pixel-dimension badges above the panes show exact input and output sizes — useful for print math (at ~300 DPI, a 4× upscale takes a 1,000-px-wide image from about 3.3 inches printable to roughly 13).
 - **Large images take longer.** Big inputs are processed in tiles and the progress readout counts them; everything still runs locally.
 - **Photographic content shines; tiny text doesn't.** Upscaling is strongest on fur, skin, fabric, landscapes. Small or already-illegible text won't become readable.
-- **Transparency:** upscaling flattens alpha — if you need a transparent result, run [AI Cutout](ai-cutout.md) *after* upscaling.
+- **Transparency is kept.** A transparent image comes out transparent, with its alpha scaled to the new size.
 
 ## Troubleshooting
 

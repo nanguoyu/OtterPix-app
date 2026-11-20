@@ -34,7 +34,8 @@ Der Klassiker: iPhone-Fotos im `.heic`-Format, die ein Windows-PC, ein Upload-Fo
 
 - **Schreiben:** JPEG, PNG, WebP, AVIF, HEIC, TIFF, BMP – plus die Sektion **Andere Formate** für alles Weitere, was dein Mac kodieren kann.
 - **Lesen:** deutlich mehr – die Ablagezone auf **Start** nennt PNG, JPEG, HEIC, TIFF, WebP, GIF +51; GIFs und die meisten anderen Formate funktionieren als Konvertierungs-*Eingabe* also problemlos.
-- Die meisten Operationen erhalten Farbprofile und EXIF-Orientierung.
+- Exporte behalten Aufnahmedatum, Kameradaten, Ort, Urheberrecht und Farbprofil des Originals und stehen richtig herum. WebP und AVIF enthalten keine Metadaten.
+- Bei animierten GIFs und mehrseitigen Dateien wie PDFs wird nur das erste Einzelbild bzw. die erste Seite verwendet; um alle Seiten eines PDFs umzuwandeln, nutze [PDF zu Bild](pdf-and-qr.md).
 
 ## Bilder komprimieren
 

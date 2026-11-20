@@ -49,6 +49,7 @@ Six inline swatches cover the common cases; the color-picker chip beside them op
 - **Contrast decides legibility.** Fine-tune opacity per photo — busy photos tolerate stronger marks than clean ones, and the live preview shows the result instantly.
 - **Batch it in the Pipeline.** For a recurring workflow, add a **Watermark** step to a [Pipeline](../pipeline.md) and run entire folders — with resizing and format conversion in the same pass. Keep the Watermark step *after* Crop and Resize; the app warns if it sits before them ("Watermark placed before Resize may become blurry").
 - **Text watermarks only.** The tool renders text; it does not stamp image/logo files.
+- **Lossy formats are saved at 95 percent quality,** independent of the default quality in Settings.
 
 ## Troubleshooting
 

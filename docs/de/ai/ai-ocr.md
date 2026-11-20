@@ -58,6 +58,7 @@ Die Einstellungen des Werkzeugs enthalten die **Modell**-Zeile (in den Worten de
 - **Tabellen und Formeln kommen als Markdown heraus**, bereit zum Einfügen in Notiz-Apps, Wikis oder Editoren.
 - **Die App prüft ihre eigene Arbeit.** Kommen manche Seiten verdächtig leer zurück, erscheint ein Warnbanner: „Einige Seiten sind fast leer — evtl. besser im anderen Modus.“ – mit einem Ein-Klick-Neustart in diesem Modus.
 - **Lange Seiten können ans Ausgabelimit stoßen.** Meldet die App, dass die Ausgabe das Token-Limit erreicht hat („… erhöhe es in den Einstellungen“), erhöh **Max. Tokens** in den Einstellungen des Werkzeugs und lass die Erkennung erneut laufen.
+- **Abbrechen behält das Erledigte.** Stoppst du einen Lauf oder schlägt eine Seite fehl, bleiben die bereits gelesenen Seiten erhalten, mit dem Hinweis „Vorzeitig beendet. Angezeigt wird der bisher erkannte Text.“
 
 ## Fehlerbehebung
 
@@ -67,6 +68,7 @@ Die Einstellungen des Werkzeugs enthalten die **Modell**-Zeile (in den Worten de
 | „Einige Seiten sind fast leer — evtl. besser im anderen Modus.“ | Der gewählte Modus kam mit dem Layout dieser Seiten nicht zurecht | Über den Knopf im Banner den anderen Modus auf demselben Dokument laufen lassen |
 | Die Ausgabe bricht mitten im Dokument ab | Die Token-Obergrenze pro Seite wurde erreicht | **Max. Tokens** in den Einstellungen des Werkzeugs erhöhen, dann erneut **Erkennen** |
 | Wirre Ausgabe bei einem Foto | Die Eingabe ist kein Dokument, sondern ein Szenenfoto oder Meme | Dokumentartige Eingaben verwenden – dafür ist das Werkzeug gebaut |
+| „Dieses PDF ist passwortgeschützt. Entferne das Passwort und versuche es erneut.“ | Das PDF ist verschlüsselt | Eine Kopie ohne Passwort sichern und diese hineinziehen |
 | Weiterhin Probleme | — | [Issue eröffnen](https://github.com/nanguoyu/OtterPix-app/issues/new/choose) |
 
 ## Siehe auch
